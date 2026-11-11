@@ -8,7 +8,7 @@ for file in sorted(root.glob('*/per_image.jsonl')):
     for domain in ['indoors','outdoor']:
         rr=[r for r in rows if r['domain']==domain]
         if not rr:continue
-        for mask in ['full','capped']:
+        for mask in ['full','capped','common']:
             vals=[r[mask] for r in rr]
             result=dict(model=rr[0]['model'],domain=domain,mask=mask,n=len(rr))
             for metric in ['abs_rel','rmse','delta1','median_aligned_abs_rel','median_scale']:

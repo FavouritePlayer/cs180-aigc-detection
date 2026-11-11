@@ -1,0 +1,26 @@
+{
+  "indoors": {
+    "n": 100,
+    "scenes": {
+      "scene_00020": 43,
+      "scene_00019": 20,
+      "scene_00021": 37
+    },
+    "mean_valid_fraction": 0.9868782297770182,
+    "mean_fraction_ge_10m": 0.031785023267088215,
+    "mean_fraction_ge_20m": 0.0009241937386506943,
+    "mean_fraction_ge_80m": 0.0
+  },
+  "outdoor": {
+    "n": 100,
+    "scenes": {
+      "scene_00024": 15,
+      "scene_00022": 59,
+      "scene_00023": 26
+    },
+    "mean_valid_fraction": 0.791835339864095,
+    "mean_fraction_ge_10m": 0.5430854124124882,
+    "mean_fraction_ge_20m": 0.24289080807440283,
+    "mean_fraction_ge_80m": 0.0035852587607930536
+  }
+}

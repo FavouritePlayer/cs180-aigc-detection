@@ -13,7 +13,7 @@ Archive checksums (MD5, from the dataset authors):
 
 Depth is scored at the native ground-truth resolution, on the supplied sensor-valid mask with finite positive reference depth. Ground truth is never interpolated. Primary metric is per-image mean `abs(pred-gt)/gt`, averaged with equal image weight within each domain. Also report RMSE (meters), delta1 (fraction within a multiplicative factor 1.25), and the distribution of per-image AbsRel.
 
-Two masks are reported: **full** uses every sensor-valid reference pixel; **capped** restricts reference depths to <20 m indoors / <80 m outdoors, the DAV2 metric checkpoint ranges. The same masks apply to every depth model. Predictions are neither aligned nor clipped for primary scores. Nonfinite or nonpositive predictions on the mask raise an error rather than disappearing from evaluation.
+Three masks are reported: **full** uses every sensor-valid reference pixel; **capped** restricts reference depths to <20 m indoors / <80 m outdoors, the DAV2 metric checkpoint ranges. **common** uses <10 m indoors / <80 m outdoors, accommodating DepthART's 10 m indoor model range. The same masks apply to every depth model. Predictions are neither aligned nor clipped for primary scores. Nonfinite or nonpositive predictions on the mask raise an error rather than disappearing from evaluation.
 
 `median_aligned_abs_rel` is a separate diagnostic after multiplying predicted depth by `median(gt)/median(pred)` on the same evaluation mask. It uses ground truth and is not a deployable accuracy result. Constant scale cancels in depth-derived normals, so raw scale accuracy alone cannot settle the later consistency-detection question.
 
@@ -24,7 +24,7 @@ Normals are normalized before angular evaluation, with signed dot products (180-
 - **Depth Anything V2 Metric Large:** official `metric_depth` code, ViT-L, 518 input-size setting, Hypersim checkpoint with max_depth=20 indoors and VKITTI checkpoint with max_depth=80 outdoors.
 - **DepthART Metric Large:** official metric inference path and domain-specific L448 checkpoints, official CLI defaults (480x640 indoor target and 448x448 outdoor target, aspect-preserving lower-bound resize). Uses **ground-truth published camera intrinsics**; this is a known-calibration benchmark.
 - **TR2M + BLIP captions:** released head with Depth Anything ViT-S, DINOv2 ViT-L, CLIP ViT-L/14; official demo resolution 434x560. Captions are generated from RGB by `Salesforce/blip-image-captioning-base`, greedy decoding up to 50 new tokens, and saved. This is a reproducible caption condition, not a reproduction of the paper's caption setup.
-- **Marigold Normals v1.1:** diffusers pipeline, FP16, DDIM, 4 steps, processing resolution 768, ensemble size 1, per-image deterministic seed derived from the path. The authors' DIODE benchmark uses ensemble size 10; this lower-cost run is not that benchmark.
+- **Marigold Normals v1.1:** diffusers pipeline, FP16, DDIM, 4 steps, processing resolution 768, ensemble size 10, per-image deterministic seed derived from the path. Uses the authors' 4-step / ensemble-10 DIODE settings on our fixed sample.
 - **HyDen Metric Point / Surface Normal:** public metadata is available, but both weight repositories require authenticated approved access. No replacement model is silently substituted.
 - **GeoCalib:** predicts calibration rather than depth. DIODE's known intrinsics are used in stage 1; calibration-estimation error propagation remains separate future work.
 

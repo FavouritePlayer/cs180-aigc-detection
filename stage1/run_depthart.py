@@ -21,7 +21,7 @@ for domain,short,cap in [('indoors','indoor',20),('outdoor','outdoor',80)]:
             pred=F.interpolate(model(tensor.cuda(),K.cuda())[:,None],im.shape[:2],mode='bilinear',align_corners=True)[0,0].cpu().numpy()
         np.save(out/(f.stem+'_depth.npy'),pred.astype(np.float32))
         gt=np.load(str(f.with_suffix(''))+'_depth.npy').squeeze();mask=np.load(str(f.with_suffix(''))+'_depth_mask.npy').squeeze().astype(bool)
-        result=dict(model='depthart_metric_large_gt_intrinsics',**row,seconds=time.time()-start,full=depth_metrics(gt,pred,mask),capped=depth_metrics(gt,pred,mask&(gt<cap)))
+        result=dict(model='depthart_metric_large_gt_intrinsics',**row,seconds=time.time()-start,full=depth_metrics(gt,pred,mask),capped=depth_metrics(gt,pred,mask&(gt<cap)),common=depth_metrics(gt,pred,mask&(gt<(10 if domain=='indoors' else 80))))
         with (out/'per_image.jsonl').open('a') as h:h.write(json.dumps(result)+'\n')
         print(domain,f.name,result['full']['abs_rel'],flush=True)
     del model;torch.cuda.empty_cache()

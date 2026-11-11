@@ -32,6 +32,6 @@ for row in rows:
         pred=upsample_to(1/(scale*rel+shift),size)
     np.save(out/(f.stem+'_depth.npy'),pred.astype(np.float32))
     gt=np.load(str(f.with_suffix(''))+'_depth.npy').squeeze();mask=np.load(str(f.with_suffix(''))+'_depth_mask.npy').squeeze().astype(bool);cap=20 if row['domain']=='indoors' else 80
-    result=dict(model='tr2m_blip_base',**row,seconds=time.time()-start,full=depth_metrics(gt,pred,mask),capped=depth_metrics(gt,pred,mask&(gt<cap)))
+    result=dict(model='tr2m_blip_base',**row,seconds=time.time()-start,full=depth_metrics(gt,pred,mask),capped=depth_metrics(gt,pred,mask&(gt<cap)),common=depth_metrics(gt,pred,mask&(gt<(10 if row['domain']=='indoors' else 80))))
     with (out/'per_image.jsonl').open('a') as h:h.write(json.dumps(result)+'\n')
     print(row['domain'],f.name,result['full']['abs_rel'],flush=True)

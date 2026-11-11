@@ -22,7 +22,8 @@ for domain,checkpoint,cap in [('indoors','hypersim',20),('outdoor','vkitti',80)]
         mask=np.load(str(f.with_suffix(''))+'_depth_mask.npy').squeeze().astype(bool)
         result=dict(model='dav2_metric_large',**row,seconds=time.time()-start,
                     full=depth_metrics(gt,pred,mask),
-                    capped=depth_metrics(gt,pred,mask & (gt<cap)))
+                    capped=depth_metrics(gt,pred,mask & (gt<cap)),
+                    common=depth_metrics(gt,pred,mask & (gt<(10 if domain=='indoors' else 80))))
         with (out/'per_image.jsonl').open('a') as h:h.write(json.dumps(result)+'\n')
         print(domain,f.name,result['full']['abs_rel'],flush=True)
     del model;torch.cuda.empty_cache()

@@ -1,0 +1,30 @@
+{
+  "hf_metadata_at_setup": {
+    "depth-anything/Depth-Anything-V2-Metric-Hypersim-Large": {
+      "revision": "79720800638389a78b2defc92caa885104f69974",
+      "gated": false
+    },
+    "depth-anything/Depth-Anything-V2-Metric-VKITTI-Large": {
+      "revision": "070e97e4b80e317ec1d03c19927304f4091a180b",
+      "gated": false
+    },
+    "Fengxue93/DepthART": {
+      "revision": "9e154201cd8fb3453c9def581997aaf1b4da3c22",
+      "gated": false
+    },
+    "prs-eth/marigold-normals-v1-1": {
+      "revision": "09cfdd258cb281fa006cf1afcd2284376d16687d",
+      "gated": false
+    },
+    "Salesforce/blip-image-captioning-base": {
+      "revision": "82a37760796d32b1411fe092ab5d4e227313294b",
+      "gated": false
+    }
+  },
+  "local_source_checkouts": {
+    "Depth-Anything-V2": "a561b849ebae10a6f5ef49e26c83cbbcd36c71bf",
+    "DepthART": "b307c123f19051e2d969960bba93ee3684874b90",
+    "TR2M": "a45925862bcd76c84ac38c6fc98da1e187f1146e",
+    "metadepth": "810b77c3e56712813a0de42a130cfbe6f5b19b90"
+  }
+}
