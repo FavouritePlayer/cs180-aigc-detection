@@ -1,0 +1,18 @@
+{
+  "hyden_metric_point": {
+    "status": "blocked",
+    "source": "https://github.com/facebookresearch/metadepth",
+    "weights": "https://huggingface.co/facebook/hyden-mogev2-metric-point",
+    "reason": "HTTP 401 GatedRepo on checkpoint request; approved authenticated Hugging Face access required. No Hugging Face credential configured."
+  },
+  "hyden_surface_normal": {
+    "status": "blocked",
+    "weights": "https://huggingface.co/facebook/hyden-mogev2-surface-normal",
+    "reason": "Hugging Face metadata reports gated=manual; approved authenticated access required."
+  },
+  "geocalib": {
+    "status": "not_run",
+    "source": "https://github.com/cvg/GeoCalib",
+    "reason": "Calibration estimator, not a depth estimator. Published DIODE intrinsics used for the known-calibration depth benchmark. Calibration error propagation not evaluated."
+  }
+}
