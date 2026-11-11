@@ -17,6 +17,7 @@ for domain,checkpoint,cap in [('indoors','hypersim',20),('outdoor','vkitti',80)]
         if row['domain']!=domain:continue
         f=Path(a.root)/row['path']; start=time.time()
         with torch.inference_mode():pred=model.infer_image(cv2.imread(str(f)),input_size=518)
+        np.save(out/(f.stem+'_depth.npy'),pred.astype(np.float32))
         gt=np.load(str(f.with_suffix(''))+'_depth.npy').squeeze()
         mask=np.load(str(f.with_suffix(''))+'_depth_mask.npy').squeeze().astype(bool)
         result=dict(model='dav2_metric_large',**row,seconds=time.time()-start,
