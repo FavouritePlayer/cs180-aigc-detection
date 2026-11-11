@@ -1,0 +1,1002 @@
+[
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00020/scan_00184/00020_00184_indoors_140_000.png",
+    "sha256": "7d245971ec3b3ed033c3efbad7c975177abdd8aaf58ee00e846e040ba519aaf4"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00019/scan_00183/00019_00183_indoors_310_000.png",
+    "sha256": "96d3bf2b94891ec27f42c84ee0e3d930d3416f7dd63490c617b3cfd9fc8f68bb"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00021/scan_00188/00021_00188_indoors_100_010.png",
+    "sha256": "d687e0d84fbd316ea776001be1d963796a986810ef7b9ce33f815d0813015da5"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00021/scan_00191/00021_00191_indoors_350_030.png",
+    "sha256": "39292784452f51695de8415a52f94fcf368d987ed140c7f2508d5db2238ae55b"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00020/scan_00186/00020_00186_indoors_090_000.png",
+    "sha256": "a07f44bf36ab0739c60c0659461c2c5a690f29f340445e6dd6e9c065edaa566d"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00019/scan_00183/00019_00183_indoors_110_050.png",
+    "sha256": "7978210fe4714c80f31f53052b39ccbf2f073c8a9e340239aa60f02dd4cbd038"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00019/scan_00183/00019_00183_indoors_150_020.png",
+    "sha256": "c05e01b0633fd108f9107c95e2e4eb4a252e61d5177cddde0f63188caf795599"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00020/scan_00184/00020_00184_indoors_120_000.png",
+    "sha256": "73bd82d1fdfe0ea99c09b4239bc896285ed0e1a323d0cbe1d70a9e43d2e8e058"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00020/scan_00184/00020_00184_indoors_050_000.png",
+    "sha256": "2641d27768b547e53d4d1dac922b72cb31a0413762bd78b36b898386c150d40e"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00019/scan_00183/00019_00183_indoors_010_020.png",
+    "sha256": "b2d91950afbccf40ae2926c7eb05297a447d2049b25cfeed37884b3ad4b40d0c"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00019/scan_00183/00019_00183_indoors_140_010.png",
+    "sha256": "764db4e6c1840a17619c41adb47fe7e48f7da3ceb7a90f8418a4422316b9439b"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00021/scan_00192/00021_00192_indoors_000_020.png",
+    "sha256": "fe69baf50e4801abd3b5f9b2dacd70e33a0ed8c8f4a2d975c980128bf1802e74"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00020/scan_00186/00020_00186_indoors_000_000.png",
+    "sha256": "2478882bbac47733a075b3871d178e4c27ba432d0f6d2af1341265a8eecf1369"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00021/scan_00192/00021_00192_indoors_220_000.png",
+    "sha256": "97df64bd4ed1f20af000946704a01b06f0ce72694315d527efd225d3c2085e91"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00019/scan_00183/00019_00183_indoors_110_000.png",
+    "sha256": "85e9dc79103fe3f99637896b28634216b7734d0e701a4450d8def9c6602451c1"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00021/scan_00189/00021_00189_indoors_230_000.png",
+    "sha256": "0284bf27a46e8f90adaf2eaa8c6f4aaa3b4671a543147798288b8b38ef8dbf3e"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00020/scan_00187/00020_00187_indoors_280_010.png",
+    "sha256": "a0f20538ead307d86daabbaaf7158824b6ad4828520dd1fab17990711ddf7fa9"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00021/scan_00189/00021_00189_indoors_130_000.png",
+    "sha256": "06bc846d35c5bbdfbbf58030878876b28e7cf6002f7b959d5e34a5d1735c2a6a"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00021/scan_00191/00021_00191_indoors_340_020.png",
+    "sha256": "6c273dd3d220721798d42f330b4cfda31f52a1dd6b0e3f13f120fab464e654de"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00019/scan_00183/00019_00183_indoors_180_010.png",
+    "sha256": "dd7483531db6491308912b1267447c8a1311e28f139877c7999811d244f2d0bb"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00020/scan_00186/00020_00186_indoors_100_010.png",
+    "sha256": "161fbd1c1a738d8713d9953a131308bb13051463d23cd039969b78262a04eae6"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00021/scan_00190/00021_00190_indoors_300_000.png",
+    "sha256": "7601cf3adf0e9414241337763e6de7a614e736366899644bb1e9e7ec2843ed3e"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00021/scan_00191/00021_00191_indoors_330_030.png",
+    "sha256": "28d6dcce645ed7143ac8d20d2888363417e9f543ed59a7302a5dfe1e456f3c30"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00019/scan_00183/00019_00183_indoors_240_020.png",
+    "sha256": "ff5a64485a47d2b72f7aa2aa7dcda1ae618aff59d43564fd6b3ce575ef9634c1"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00020/scan_00186/00020_00186_indoors_130_010.png",
+    "sha256": "e5a50bc9c33aa44f9706e04e4b6d1dada411c228b9896f02f7422ed53765f3bc"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00020/scan_00187/00020_00187_indoors_290_000.png",
+    "sha256": "2a4a84efd98291dc00ee160d007e9e504d4c2bb3d77519f24328ca8a74770b36"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00021/scan_00192/00021_00192_indoors_350_010.png",
+    "sha256": "3b4478177d060e60b6bd64b5bb2bd48b9d0ee834e1a33ac9c8a769bd5505cbd3"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00021/scan_00189/00021_00189_indoors_150_030.png",
+    "sha256": "6795c39c67c41510d8050bf3d6cb1a736f2a0d755d4dfe280c8cfe4832edb9fc"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00019/scan_00183/00019_00183_indoors_170_000.png",
+    "sha256": "e1edd01468fb641b9f926863f6b5df77f470bf648f1b227c3ccbd8516c38ab1d"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00021/scan_00192/00021_00192_indoors_300_020.png",
+    "sha256": "e544ae35a32e354da252334e3ee05b433dae6e2dc647b475c6d7cb50ef068f48"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00019/scan_00183/00019_00183_indoors_140_050.png",
+    "sha256": "f0fc805533e96248c0afa5d3e182ec2c92d9d1a3a4864ea0a321c757c788ac82"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00019/scan_00183/00019_00183_indoors_080_000.png",
+    "sha256": "40711e1bf71c565143442f4df307a9588d9a3ae634979434493914c48607e22e"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00020/scan_00187/00020_00187_indoors_000_000.png",
+    "sha256": "16bf17dce5d4025536bada42024cd756c7e6f6ee5012a7e7c606039c7e7028db"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00020/scan_00185/00020_00185_indoors_030_010.png",
+    "sha256": "22f515c0f88cd0f97475fc11c0bd7a5baf1e2dd0fd53b74d3433e6f089f8a1fd"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00020/scan_00187/00020_00187_indoors_250_000.png",
+    "sha256": "05297462a396317d2071c67c4b902bc0ee6c8deb4e043df61ba4d62f39555169"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00020/scan_00186/00020_00186_indoors_150_010.png",
+    "sha256": "c3ce0522e212dce91ce299cc749bcd37d9d8a37bfa04b37e96b3104a1e58397b"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00020/scan_00185/00020_00185_indoors_330_010.png",
+    "sha256": "866330ac0bc4976c47c0d2b9307f9e2a5126bdd6eb9d36d5534fc309168df87e"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00019/scan_00183/00019_00183_indoors_290_000.png",
+    "sha256": "75a32971e5708d47f5b0a70823b2edd252e010e1156241ba23c08bad93f014d1"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00020/scan_00184/00020_00184_indoors_170_020.png",
+    "sha256": "fa8e0f42e0fe5f18e109d8e703daa580768bfbae064a8360d5c2768b43a49c86"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00020/scan_00186/00020_00186_indoors_140_000.png",
+    "sha256": "4f5e1c23b0c8170e6d08ab00557c1a08bd3f00de2551992833fdafe176f674e2"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00020/scan_00186/00020_00186_indoors_260_040.png",
+    "sha256": "0def241b92c9a03ebd397bb97b8fe64acf1e7b13552d0d67292f829f965acc4f"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00020/scan_00185/00020_00185_indoors_020_000.png",
+    "sha256": "ccf923a584e7a9d588826bc179d29fd5821acde77eafb4a1c651f1a72054acbf"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00020/scan_00185/00020_00185_indoors_270_000.png",
+    "sha256": "1f1715cadafcedb7bdb14041a58021b5b566d895a88cd374d1800a5c92492696"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00021/scan_00192/00021_00192_indoors_040_000.png",
+    "sha256": "69aa04205724ff6397ff11d537d2a56e872b0c33f7b8b96fd33ba89f4f8b6550"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00020/scan_00186/00020_00186_indoors_050_010.png",
+    "sha256": "156637509b4a275ecc7d2d553ef7278f9baf9f08474633255d000237a1573774"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00019/scan_00183/00019_00183_indoors_170_040.png",
+    "sha256": "136654d3e53e2a2ec665e6f2237ee8b2e6ce879a1a090bf50b9f3fe744119003"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00021/scan_00189/00021_00189_indoors_000_040.png",
+    "sha256": "c1f6b192caaf1f6914892df64e81388bbd93993ffcec5372b6a132c740c94b47"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00020/scan_00187/00020_00187_indoors_000_040.png",
+    "sha256": "5fa6d64a7968fec11d6954c9c7f3bc3698ddbe2c80a7242b504c6c2fffceeeaa"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00020/scan_00184/00020_00184_indoors_120_020.png",
+    "sha256": "cce0baa3849a6bd196005ad5c4951dd53125b97989c1ca32135d5328f104756f"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00021/scan_00190/00021_00190_indoors_150_050.png",
+    "sha256": "2064ae858de64ce2e58f4d6a7eab8bbfa9b11a1ce6566a2087d3a9484cefb3d2"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00021/scan_00192/00021_00192_indoors_340_020.png",
+    "sha256": "2c0e782dd55871a3b4b6696de6f43471a76e663899f130d893198c2f91cd6b80"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00020/scan_00185/00020_00185_indoors_150_000.png",
+    "sha256": "5141f8e400a12006eec3afc82e73b07b533905f9f3c479dddd4cb0aeb7c46db3"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00021/scan_00192/00021_00192_indoors_020_000.png",
+    "sha256": "a1b3a2d6de0e45858f88b1d7220df9612d0060068cd9f93f406af57dbf9bba4a"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00021/scan_00191/00021_00191_indoors_220_040.png",
+    "sha256": "632625122432820f17986c43cb5ba91c5a0d9d4893c320284ea402d899e62462"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00020/scan_00186/00020_00186_indoors_230_000.png",
+    "sha256": "73e0fe60124f64fca14da10f2666ebc50e5a219e24b791bb1fb09c20bb49149b"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00021/scan_00192/00021_00192_indoors_310_030.png",
+    "sha256": "bec4adf8b499f6a159fa120519fce8b9e56c33eeb279ad2b43fb9a747d4c0ee6"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00019/scan_00183/00019_00183_indoors_220_040.png",
+    "sha256": "16528d53aa1de70afdd70d2b609d3fcf6f3a1355e40783be9e24c16d0c11a649"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00020/scan_00184/00020_00184_indoors_180_010.png",
+    "sha256": "126ef6ac3c63f2a1b3326e7f56b25b176fe8360d1f4bcd25e61f4fc8d4da43d3"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00020/scan_00186/00020_00186_indoors_240_020.png",
+    "sha256": "a0b6217315f6d14f27c1a413ac31a5bbaccd06fb71045fc3be7bd0a8390cc4e9"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00021/scan_00188/00021_00188_indoors_130_000.png",
+    "sha256": "7172e1a599fb577de70048a7b84b87e7d7ef3194143f61e93f6bed363eb6ee87"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00021/scan_00192/00021_00192_indoors_000_000.png",
+    "sha256": "28c6d3acbf088975eddc38ab6e5d4162b7f93fba8f5459d0f833c2d30fe89530"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00021/scan_00190/00021_00190_indoors_100_010.png",
+    "sha256": "43ea090b49d1f01405ff09c0f8dc8e4ae2222bb80910e97572164023b2220487"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00021/scan_00190/00021_00190_indoors_090_030.png",
+    "sha256": "75f86ed6a2646ec492873629de683a9e7ab902ae8840dbd6ea976034143fbb5f"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00021/scan_00191/00021_00191_indoors_280_030.png",
+    "sha256": "3896ad3f7cfc8e9ef40508d791d1bccde9d66397413d188d2f1f940c14ab35b5"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00020/scan_00184/00020_00184_indoors_180_030.png",
+    "sha256": "2903b200c8cf4fd827f366876f3ac92931220d252e6bcde744b496ef90273072"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00020/scan_00185/00020_00185_indoors_090_000.png",
+    "sha256": "9c9abb291af21c391c040acea5a98dcb4ed615b3ca86ad16e34b69af6d8ec700"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00020/scan_00187/00020_00187_indoors_210_000.png",
+    "sha256": "7c8af4bbd82739235b71f7a4a84f42e22ad89a82f94037b9e0d120c616382d4c"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00021/scan_00190/00021_00190_indoors_060_040.png",
+    "sha256": "7ba46ca80c9e0d2b2b4093bda938f77a68c710c79186a9a3f3ec8aeec2732f78"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00020/scan_00184/00020_00184_indoors_130_030.png",
+    "sha256": "e6c8fc234c48812c197e4ab5228f0c5f771ab297608b285aef2e4a6fdc6f6300"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00019/scan_00183/00019_00183_indoors_130_000.png",
+    "sha256": "ddbb7232316e32a1918270d878c8923e562a59036bed3bd174edc73e8b73a33b"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00019/scan_00183/00019_00183_indoors_170_020.png",
+    "sha256": "deb58d68c40f55a2f9a070890899892c0df3d92fef32767053a737d00a32cad2"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00021/scan_00188/00021_00188_indoors_200_020.png",
+    "sha256": "5d8f1b861ca236a18e46110b0a4dc0ed18cb4b61268ff43fa5ea418e02aeea7b"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00020/scan_00184/00020_00184_indoors_080_010.png",
+    "sha256": "d93f013573463329c1c8a7a5bcf32510c7124610518e44040b0826f3b000a37b"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00020/scan_00184/00020_00184_indoors_070_000.png",
+    "sha256": "b19c9c16d58ac3ebfddad8266e403c19ceab4a5203674497e74cf9743b587e54"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00019/scan_00183/00019_00183_indoors_350_000.png",
+    "sha256": "c72e0ce711b07b3dba26d762cb7c56afedd50594604605ee5b2e3641859cb43c"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00021/scan_00190/00021_00190_indoors_070_000.png",
+    "sha256": "6a002b5da3518b63ac3c714b6fea8257b145fb2fe4b46849edd99db5ad9888f6"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00020/scan_00186/00020_00186_indoors_190_050.png",
+    "sha256": "47eae9395cf2ba35ac1d6a93f30ef045a6c12f4740def053e9b5f9ed9cde6c6e"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00020/scan_00185/00020_00185_indoors_300_030.png",
+    "sha256": "3f3d5e7db0970d82bec1fc5863b56c96cdd8d6e93f582a9c0d37a348ac0ccf6c"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00021/scan_00191/00021_00191_indoors_230_050.png",
+    "sha256": "09c6df02a1e27abc50de08378f2d964d8214a0a0c4bde8548b21830e40efefee"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00021/scan_00189/00021_00189_indoors_000_000.png",
+    "sha256": "fed8f8be2ea611b2d1ce2b75440f029d6b786cef7218bace273e96dc79acf60b"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00020/scan_00186/00020_00186_indoors_120_020.png",
+    "sha256": "9579683fc18d11dbbd7dc70d67c728320c13d08b97a09fe84fc4d30f81cbd7ac"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00021/scan_00189/00021_00189_indoors_200_010.png",
+    "sha256": "ac7eb0d6e290c1861b87ce496a60fc814e2710ebafd91bfdab38c491b84ba2c8"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00021/scan_00190/00021_00190_indoors_130_030.png",
+    "sha256": "1ffe7ed599662554e4da56b5c07873a0fff39c4270c2608f4faeca5a25546284"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00019/scan_00183/00019_00183_indoors_120_010.png",
+    "sha256": "d3cea4cc7e8b5a7f8eade6aa73ba1be20f5bd3fa05aab53ca03d998144e67c69"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00020/scan_00186/00020_00186_indoors_160_000.png",
+    "sha256": "932ce119abf2274298b8b21bf3e8b7751a907a98fc39bdca005508418dabf0f2"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00019/scan_00183/00019_00183_indoors_140_030.png",
+    "sha256": "fedfb87b6e51d2c9d0fd51a562bc45b04f20d39a615da31535206d3e486f04ff"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00020/scan_00185/00020_00185_indoors_180_030.png",
+    "sha256": "8b8c82a51ecf56bbf81d9db0026e13624793ae6bb2e20a9b6e2cf8441216294e"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00020/scan_00186/00020_00186_indoors_220_010.png",
+    "sha256": "6755779bd89100d0405b80691e4a1c734fc3c09df3ca526e84b4c210c0815720"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00020/scan_00185/00020_00185_indoors_300_010.png",
+    "sha256": "0a1a19170eec493c8f0ca4a4a9eca05c39dbe1baf019361f3e574919d1d3a892"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00021/scan_00189/00021_00189_indoors_210_000.png",
+    "sha256": "51e4908f26b378b32461a9bc0059f51b41499eb92e8712c3cc60f60827f3327b"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00020/scan_00186/00020_00186_indoors_110_030.png",
+    "sha256": "2e4aee31cc8c9fbd582162c7655beeb81e1b442cff6c00ece576651c3bf39b5f"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00021/scan_00188/00021_00188_indoors_150_000.png",
+    "sha256": "264ee59d2c062b8d7d4bcb193a4060e75c1297e41ca1fb9964652d7e688a7fbe"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00021/scan_00188/00021_00188_indoors_130_020.png",
+    "sha256": "29252b9e8518d7be13ec3aa543337650d76d65b160dbd01ad5cfa52493cdaccf"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00021/scan_00189/00021_00189_indoors_340_000.png",
+    "sha256": "95498fcd541585b61402fa9711d3097042d7092c0852ba5ab59d2cf323f8872e"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00019/scan_00183/00019_00183_indoors_260_020.png",
+    "sha256": "d39ff2358387176a574a370f4332a90dcb19991d2f0ff9486214b4eb2177fdab"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00021/scan_00191/00021_00191_indoors_340_040.png",
+    "sha256": "79cd381785a544a786d280d6537ae07d4e0e8a205d27eddbe10f599f1501d2c0"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00020/scan_00187/00020_00187_indoors_210_020.png",
+    "sha256": "43cfb6eac43650262370a808461718088d46dc8955f05034f41342bf035a51d0"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00020/scan_00186/00020_00186_indoors_250_030.png",
+    "sha256": "fc987c87528324d7a3ada6b45d439bfd69f6471cd47bc9d9ce42b00385cd6348"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00020/scan_00187/00020_00187_indoors_260_030.png",
+    "sha256": "b186892545de6393d0c2e74581b17724a9b73a639535b66b77a8368bdb08f3b1"
+  },
+  {
+    "domain": "indoors",
+    "path": "val/indoors/scene_00021/scan_00190/00021_00190_indoors_080_010.png",
+    "sha256": "0d90bfdae7b39b5dd41bd9d267442cc032cd50076e59898e88c5fc6b128f5c99"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00024/scan_00202/00024_00202_outdoor_210_000.png",
+    "sha256": "da44cb23096bd351dcd67c7cc98d02d31cb39ee8e4cd166b04e7c30d23659c3a"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00024/scan_00201/00024_00201_outdoor_080_020.png",
+    "sha256": "41471d1dbdc2771ebd498c0dd5df220b6b17fb1ed04225e98e8a3c77d3aecbc9"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00197/00022_00197_outdoor_020_020.png",
+    "sha256": "aeee6a118429c724c10d9302cac496f0be134fcc8a0f82a6dd40a7579fe3ed1f"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00024/scan_00201/00024_00201_outdoor_080_000.png",
+    "sha256": "fa0ab62aa36c605d3f76d8a0bf483baae09bbb5843e82f195fb6924ac174fc55"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00196/00022_00196_outdoor_070_020.png",
+    "sha256": "df5b837d4092035ba42ed9646606282ea5a1cbcd92110315ac99521ded641f1e"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00024/scan_00202/00024_00202_outdoor_130_040.png",
+    "sha256": "4a36d402dd639e75e5b21c4d8be2685146497e444499b3ccca7db8f68435eb80"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00193/00022_00193_outdoor_090_000.png",
+    "sha256": "2bfce610df8128d2966e7f431202960c29ee16ce9a8b0088a4a9b3c16723a1d5"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00023/scan_00200/00023_00200_outdoor_030_000.png",
+    "sha256": "6c3fbc247cdf8ffe3a81853730153fd90b669e0147dee344b58a22db374d699e"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00023/scan_00200/00023_00200_outdoor_130_020.png",
+    "sha256": "41df881cf2ccb3f109479a94011c89aebc922b0b920be3822f5f753ad07f4c23"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00193/00022_00193_outdoor_030_040.png",
+    "sha256": "7e06537828b3c9384261c58040df107d168f5779c1cf65b483614768b2111610"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00194/00022_00194_outdoor_140_010.png",
+    "sha256": "252bf00bef787903b7771d30f0b009214fe9941dc8d9343e4ec256414d42e0a5"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00195/00022_00195_outdoor_170_010.png",
+    "sha256": "3e15fb5a2fc39dab20b83bd56e2b727d10a0a7ddc3fd7e9ee07831e030b17cda"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00196/00022_00196_outdoor_320_020.png",
+    "sha256": "e4c7b08a5e9212fc5db477e2aacbce41ef4f0469f0a3052cdb7a3e88fdae9af4"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00194/00022_00194_outdoor_130_000.png",
+    "sha256": "16b321892a2fe21b96d32fda1908ee14c5e9144c81bb39828624ce075ce37df9"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00197/00022_00197_outdoor_340_010.png",
+    "sha256": "157daf8d67abc54967edb8c3c2fec81a02f9914fff6dfdee1408b85cb1f137a6"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00195/00022_00195_outdoor_000_040.png",
+    "sha256": "f454669ccd20172d44dea3c9f5c28e56a96a8913d1c67326476a00acd34099e4"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00197/00022_00197_outdoor_160_010.png",
+    "sha256": "ae58da6a1a83cb4bd3ff7ed1d2753ec27baf1a3027a90bc0ba153e233f947fad"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00023/scan_00199/00023_00199_outdoor_030_020.png",
+    "sha256": "67d7e6bdf92319a24e1233f8e48cd516e8e4723669d384d482e69d9f380540f5"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00197/00022_00197_outdoor_170_050.png",
+    "sha256": "6e545ce94d13f772e9f852e08386408d88ab2a24709a7e9b0feeea41068901e2"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00197/00022_00197_outdoor_250_030.png",
+    "sha256": "1308b2564dfbdccb9173cad1f316e9453c75cd4735cf7c6e85ca353fb8f67233"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00023/scan_00200/00023_00200_outdoor_340_040.png",
+    "sha256": "157c0fecbd1b8c791f1a76ccede2586ea77d0bdaaf8e48d32c70779e90bd35f8"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00024/scan_00202/00024_00202_outdoor_170_000.png",
+    "sha256": "fae1fe240b221b685e9e98826ddad2904e45b6bb34ba48d3ab2aed539a3ed356"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00193/00022_00193_outdoor_210_020.png",
+    "sha256": "b873ecf8bffc7de3c16e6693d400332e5acaae67fe8a34f889f219d6069159ce"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00023/scan_00198/00023_00198_outdoor_210_000.png",
+    "sha256": "6ece322b2b5be340d514b56ad216edc2a2452657fd3ef02677c7028d81e9e4c8"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00023/scan_00200/00023_00200_outdoor_050_020.png",
+    "sha256": "29ca2bab7b7f57608733157c35293b7b097f2a062b978f470a432db3df58cbb3"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00024/scan_00202/00024_00202_outdoor_210_030.png",
+    "sha256": "a5990d69377b37ece60ff015b63a0de4ddc96bbb274ea0d4b3dfe94ef58a069b"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00196/00022_00196_outdoor_240_000.png",
+    "sha256": "2fe62abf0f1a4b8ffd5fe06cad58e9f2c7cbc6c3616cd410afcd0bbf6bf019a9"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00023/scan_00198/00023_00198_outdoor_330_000.png",
+    "sha256": "89fccc9ffc5eafe3717763b17dc20094f0cc2ce9b18989e08276c2dcd94d7d6f"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00023/scan_00199/00023_00199_outdoor_180_000.png",
+    "sha256": "c583bc428559ee9dbd746c7d9d7e5b7d0f7c69bb24b8bee2628d6d5c06df390e"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00023/scan_00200/00023_00200_outdoor_000_010.png",
+    "sha256": "3d1c0f779183fe7eb383e05237a5462dc18fd790f35a80e90787e94d0e43c1c7"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00023/scan_00200/00023_00200_outdoor_020_050.png",
+    "sha256": "710de795efbc3e3202256b9fe377d28edce81dbe9445f207fe991df3ff3a2eef"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00194/00022_00194_outdoor_040_040.png",
+    "sha256": "0eaf2b34b1ce313fe62f8ee8694ee15950c48e58db2d11350eecadb8190ff598"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00023/scan_00200/00023_00200_outdoor_080_020.png",
+    "sha256": "dc101d3feb0e91583638a310d77897e3df0bdfc50528ab2872194d8c2aede0ca"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00196/00022_00196_outdoor_180_000.png",
+    "sha256": "e8c439a8f99ee05e5f5834422a7e7aeb7024226dae4f5f2c1a3996628ea736eb"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00196/00022_00196_outdoor_090_020.png",
+    "sha256": "be2be727d8335fe4cf27b60b1e5b5521b93e15da9d6eedef9f09d80b862b4672"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00195/00022_00195_outdoor_090_000.png",
+    "sha256": "89885d575c9e6cd3a28ae57d471e3310b5c6ad9bc02665da56b621427dc914fe"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00195/00022_00195_outdoor_160_040.png",
+    "sha256": "d87ce1611bd6ac9bdccd4068fa5e49d27cf4d5a174e184d5ff08f0d76e97a2fc"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00023/scan_00198/00023_00198_outdoor_310_000.png",
+    "sha256": "9fb7596e18c47b597e2946248e4a9a35a07e2616c7c5e00d6900e11158440619"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00195/00022_00195_outdoor_000_000.png",
+    "sha256": "485ae591b4e9197422d23834e658d3b7c0b2a9a8a1f4d190dc4e8285abcf4b58"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00195/00022_00195_outdoor_290_000.png",
+    "sha256": "f221f20f3bf37bdd43a32e309a253459d4e0b89e108013f7bd21384cbd34b784"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00024/scan_00201/00024_00201_outdoor_070_010.png",
+    "sha256": "058714ecff8a78b035b9ef849917aa173a1a887f21be3e5a26ead69a55e1e28b"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00196/00022_00196_outdoor_210_010.png",
+    "sha256": "3efcc1469e2f8c3533d78e84cff294437fce735e48d159862cf95ba19a2297f7"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00196/00022_00196_outdoor_190_010.png",
+    "sha256": "3e1dfa37906ca5d2ebbca53fae4383fa738cdcf064114561b4a8fb757c1f81db"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00195/00022_00195_outdoor_350_050.png",
+    "sha256": "f146c73eb6bf44336a039506bdadece918914026572ad197e31b2db93293c766"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00023/scan_00198/00023_00198_outdoor_320_010.png",
+    "sha256": "e32ae247a60cec9739e1cc045abc1137dfb800187e3090027024b87e0a1c07eb"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00193/00022_00193_outdoor_070_030.png",
+    "sha256": "7dae5e41704376f8eae40420d18971be62c4c74357eb7f967b26c19d5641899b"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00023/scan_00200/00023_00200_outdoor_000_050.png",
+    "sha256": "6046d35e5454ceac3691c5086d262431260b9839194be58fd9015415f21b5dba"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00196/00022_00196_outdoor_100_030.png",
+    "sha256": "f46625521b3fe1d6eb2892998100c35745cd167d7c745dd10d95484c960f226d"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00193/00022_00193_outdoor_070_010.png",
+    "sha256": "d8d6629e96d1efaf462f359d29da5ad5545a7b588c0eb78f7ec9d7029f76f5ad"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00196/00022_00196_outdoor_180_020.png",
+    "sha256": "5e0548651da087feae1ac9dfba3a7e5230b8f3a116923df0ebb6f54079ddb7a0"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00023/scan_00198/00023_00198_outdoor_230_000.png",
+    "sha256": "94d8bd32b87733c13b78314f85cd254b28d360947a0c489223a3e662ab22cb8b"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00194/00022_00194_outdoor_020_030.png",
+    "sha256": "e3900713fdc3005b09ccdf5a3558db0d3c60d803fd4f6ab2cc3976a8cc2c15d3"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00193/00022_00193_outdoor_140_000.png",
+    "sha256": "2b3f9df472347d2963ef78a4e02b5a8812ca232a7c2534d6ba2c6986ebd6e52c"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00023/scan_00200/00023_00200_outdoor_050_000.png",
+    "sha256": "b1c7fa143ae34e6a32dfbc2029a546ca1bc1af407ab657532dd9793ba9bef140"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00194/00022_00194_outdoor_110_000.png",
+    "sha256": "3cce59b9580e13b9fd3f47537824afad9b23b23b56040a19d31b80fb27b7924c"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00196/00022_00196_outdoor_230_030.png",
+    "sha256": "4274319ee1f797b45bde4ea4d66b2815f63013ce3cf300971ccf8d315ff87e5f"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00193/00022_00193_outdoor_190_000.png",
+    "sha256": "881fca34a6adcfca4e5c2975dd1383f8f988fb2a13dd397b9cb2656f0012f726"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00023/scan_00199/00023_00199_outdoor_210_010.png",
+    "sha256": "cf91534b6f5baae2701e437698e22114a610e649c756b97bb7baef62af6bcebd"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00193/00022_00193_outdoor_170_030.png",
+    "sha256": "02dbf3ac349511a2c231a2c59f80bbd0796bde8ce3e72f8e606b4b137c4385e5"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00024/scan_00202/00024_00202_outdoor_000_030.png",
+    "sha256": "29640b6d05b7f6f310c31a9a26e160518f679439bf619983dbe0b5fd1afb39aa"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00197/00022_00197_outdoor_280_010.png",
+    "sha256": "a51823cbd8a2b4f3f6cde88d0a67d63b95c10f01ea76817688d7ab3bc50a25bb"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00195/00022_00195_outdoor_290_040.png",
+    "sha256": "4fcb15edc9b4aa12435b8d88c601b4381c3aff51b0e65c73acb064d270d37fa8"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00194/00022_00194_outdoor_280_030.png",
+    "sha256": "6eef11662f4b42d459773184083f0754743143ff9186b63b71646b1b55962598"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00023/scan_00199/00023_00199_outdoor_020_010.png",
+    "sha256": "f747e2584e1ed742617b62b528ba332dfda57629aa70d592707c1342387ae3ce"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00024/scan_00201/00024_00201_outdoor_090_030.png",
+    "sha256": "df23881ac76dc66b4bcb3844d9a2ed856144ce29e5475912cae8bc1f171cfa26"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00023/scan_00199/00023_00199_outdoor_240_000.png",
+    "sha256": "6c5beca9413801cb118c65806e04c5fa8aff7732eda20b3a9724b5bc4c57d37a"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00023/scan_00199/00023_00199_outdoor_350_010.png",
+    "sha256": "0ec56ac77ef2f952d3ffdc69fb45b297522dc0e5cc9e240b41ff326657675432"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00023/scan_00199/00023_00199_outdoor_340_020.png",
+    "sha256": "ff4ee60d4bf1963c74c38fa148d2b016b12e9f8a54645a1e740fad593a5328b9"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00194/00022_00194_outdoor_120_010.png",
+    "sha256": "973ac8b78319723c9abb7cd8c5adbb8124110a00cb3e5de2986016eaeedc32f7"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00197/00022_00197_outdoor_320_010.png",
+    "sha256": "c8433468192294d90ed88f44dee62ecb4cc92c3e214a8cab75674e99edcff51f"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00193/00022_00193_outdoor_050_050.png",
+    "sha256": "8e55da5b07196e673dad767861be62148e7e3e2b6508f792e07d9ca1e625f40e"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00023/scan_00199/00023_00199_outdoor_030_000.png",
+    "sha256": "db5a8e575f06343ae4d52ed8bbfd11cc13c625ad8899a3014203b45cbe0d15d2"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00193/00022_00193_outdoor_140_050.png",
+    "sha256": "9e02640928ba32711ddddd914ceb13b878f33878d01b429d979c8bea2941a954"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00197/00022_00197_outdoor_320_030.png",
+    "sha256": "ededbdf2345f0b61c6eff3f600e602db3fbc8cc600415a082ebf48849098fb5d"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00197/00022_00197_outdoor_230_050.png",
+    "sha256": "cbef6c73f0a376473576549cb77714abede5480e0f8170c8e55aa23185e4c987"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00024/scan_00201/00024_00201_outdoor_140_020.png",
+    "sha256": "e190739372c027e0f09f3f4d1c3a9f4911b21db8e041147533d633d66204a655"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00194/00022_00194_outdoor_350_010.png",
+    "sha256": "92c1dd090764bc3510c8fa7fd07e42ea76401856b4479789a8e9ed227f9d6c69"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00197/00022_00197_outdoor_280_050.png",
+    "sha256": "3411d4bda4c918cf2e3e96d7ca3e4a35ac51d86f8505f713ea7dfdbfcaa73145"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00197/00022_00197_outdoor_180_000.png",
+    "sha256": "05a336e251b4c975fcfd0427f898e4315726cd2561438e6c1752385881cb80f1"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00195/00022_00195_outdoor_180_020.png",
+    "sha256": "bec500397b9ed28f6d211769da29e5669c0388f3e7abc8c5b94530e9b507b8c5"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00193/00022_00193_outdoor_310_000.png",
+    "sha256": "ea2ff0059d89871a88d603b1ae8d5de301f1e4e86a69efa4cf4124a3dd61b9c8"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00024/scan_00201/00024_00201_outdoor_190_000.png",
+    "sha256": "89c17ac92dda26f4b61142db312502c9c2528e122bb7fb434932e4025139c5a2"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00193/00022_00193_outdoor_010_010.png",
+    "sha256": "03e40f962930d84b098ed90a043f960ef6d390fa60b4b0551b408030cd114cc0"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00024/scan_00201/00024_00201_outdoor_120_000.png",
+    "sha256": "9180cdb0a70c04b087f7a9c4bc363c48c1baf9090335341e84b666f369165fa3"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00197/00022_00197_outdoor_170_030.png",
+    "sha256": "e11cc4c4cea0149f76baebd82e502c9f0621c7aa13f1a39dfad423ec09901b9c"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00195/00022_00195_outdoor_070_000.png",
+    "sha256": "4c63b707a212bf6b82abdd96446712b1f9c38aaf8ef022b354a37882b001cd7b"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00195/00022_00195_outdoor_290_020.png",
+    "sha256": "5a8509a56c6741c30f645e2845e6cbe74a2c0569dc40c340865e33c8c209f38d"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00024/scan_00201/00024_00201_outdoor_090_010.png",
+    "sha256": "00dfec20ba097946f2634cef695a251a550ef6a00484b8b9c760735923a07db1"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00194/00022_00194_outdoor_070_030.png",
+    "sha256": "bed4b022e67618907afbcdc6d0b17238c315414c1e97259a5b63053b729a02da"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00196/00022_00196_outdoor_250_010.png",
+    "sha256": "213c819f9ce5b6ed5999c2c32d4cf6311a21e077a273ca053e4d98660254c3eb"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00024/scan_00202/00024_00202_outdoor_180_030.png",
+    "sha256": "72078226dd45c31639f05d29b51a5aa1a100239594b709fc17c1d9d8da444317"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00024/scan_00202/00024_00202_outdoor_190_000.png",
+    "sha256": "60d8d94ef3ec1d03aca4f831743f3cc815c93f65c1c4ee83c26f742df78fe4d0"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00023/scan_00200/00023_00200_outdoor_290_020.png",
+    "sha256": "a3ff8a3f752f9cf4004235f5b345a70d3caef3d900506def0a72f97f7132ba76"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00197/00022_00197_outdoor_200_020.png",
+    "sha256": "d7d1befc87aeec0c2f1020d48a36e90e51854e315718200c877d73ca999a648d"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00193/00022_00193_outdoor_350_010.png",
+    "sha256": "cf8591a24842620f8aca234a6da2f3b0925c7f5a016f9f34e06192ed3f8daae8"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00023/scan_00199/00023_00199_outdoor_200_020.png",
+    "sha256": "5a780d0efd40e159a80a811b9f18a605b3a51889cb47899a473b571138ff072d"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00023/scan_00200/00023_00200_outdoor_040_030.png",
+    "sha256": "3772c41f95a38c2a8229b289d6152affcba42753e767fff72d7c4dc7730185f1"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00196/00022_00196_outdoor_020_050.png",
+    "sha256": "06cafb42b2021bf3ee8e8b18d624409abed1dbc26f2d1ebc76e3215bec232f2e"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00022/scan_00193/00022_00193_outdoor_240_030.png",
+    "sha256": "82ad8f276599f739cab41a676fcc41b4ff0dd3899b74a349f61b4715f34fc012"
+  },
+  {
+    "domain": "outdoor",
+    "path": "val/outdoor/scene_00023/scan_00198/00023_00198_outdoor_250_030.png",
+    "sha256": "baacef2f8670a69ecb0a5397f733f4a92f747fed7dac80cd5fc28a5ce17b1abe"
+  }
+]
