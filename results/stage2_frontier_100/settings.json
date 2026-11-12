@@ -1,0 +1,14 @@
+{
+  "canvas_long_edge": 1024,
+  "resize": "PIL LANCZOS, aspect preserving, no crop",
+  "moge_resolution_level": 9,
+  "moge_apply_mask": false,
+  "camera": "MoGe predicted normalized intrinsics, converted to canvas pixels",
+  "marigold_steps": 4,
+  "marigold_ensemble": 10,
+  "marigold_processing_resolution": 768,
+  "precision": "fp16 official inference",
+  "primary_stride": 4,
+  "score_direction": "higher disagreement = AI",
+  "seed": "first 32 bits of SHA256(image id)"
+}

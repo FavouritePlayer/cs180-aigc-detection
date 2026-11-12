@@ -1,0 +1,132 @@
+[
+  {
+    "repo": "prs-eth/marigold-normals-v1-1",
+    "revision": "09cfdd258cb281fa006cf1afcd2284376d16687d",
+    "filename": "model_index.json",
+    "destination": "/workspace/models/marigold/model_index.json",
+    "sha256": null,
+    "bytes": 512,
+    "actual_sha256": "2a9df1f02d91e9b8da08dea89768368dadb647d52f07e207f1f6fce88507877e",
+    "verified": true
+  },
+  {
+    "repo": "prs-eth/marigold-normals-v1-1",
+    "revision": "09cfdd258cb281fa006cf1afcd2284376d16687d",
+    "filename": "scheduler/scheduler_config.json",
+    "destination": "/workspace/models/marigold/scheduler/scheduler_config.json",
+    "sha256": null,
+    "bytes": 533,
+    "actual_sha256": "506414f187b3d1e96d8b3e121bca0e35158ece49b76b34d22dd756ca6332bd76",
+    "verified": true
+  },
+  {
+    "repo": "prs-eth/marigold-normals-v1-1",
+    "revision": "09cfdd258cb281fa006cf1afcd2284376d16687d",
+    "filename": "text_encoder/config.json",
+    "destination": "/workspace/models/marigold/text_encoder/config.json",
+    "sha256": null,
+    "bytes": 633,
+    "actual_sha256": "6b34b0bf6cff02e2afe88145740ef5e0316caf7add8307c8ec0b021a7923cc42",
+    "verified": true
+  },
+  {
+    "repo": "prs-eth/marigold-normals-v1-1",
+    "revision": "09cfdd258cb281fa006cf1afcd2284376d16687d",
+    "filename": "text_encoder/model.fp16.safetensors",
+    "destination": "/workspace/models/marigold/text_encoder/model.fp16.safetensors",
+    "sha256": "bc1827c465450322616f06dea41596eac7d493f4e95904dcb51f0fc745c4e13f",
+    "bytes": 680820392,
+    "actual_sha256": "bc1827c465450322616f06dea41596eac7d493f4e95904dcb51f0fc745c4e13f",
+    "verified": true
+  },
+  {
+    "repo": "prs-eth/marigold-normals-v1-1",
+    "revision": "09cfdd258cb281fa006cf1afcd2284376d16687d",
+    "filename": "tokenizer/merges.txt",
+    "destination": "/workspace/models/marigold/tokenizer/merges.txt",
+    "sha256": null,
+    "bytes": 524619,
+    "actual_sha256": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a",
+    "verified": true
+  },
+  {
+    "repo": "prs-eth/marigold-normals-v1-1",
+    "revision": "09cfdd258cb281fa006cf1afcd2284376d16687d",
+    "filename": "tokenizer/special_tokens_map.json",
+    "destination": "/workspace/models/marigold/tokenizer/special_tokens_map.json",
+    "sha256": null,
+    "bytes": 460,
+    "actual_sha256": "f118ab3a983206e4f32583448de6bd6aae4ee21869135cef1f5848a753cdaab6",
+    "verified": true
+  },
+  {
+    "repo": "prs-eth/marigold-normals-v1-1",
+    "revision": "09cfdd258cb281fa006cf1afcd2284376d16687d",
+    "filename": "tokenizer/tokenizer_config.json",
+    "destination": "/workspace/models/marigold/tokenizer/tokenizer_config.json",
+    "sha256": null,
+    "bytes": 855,
+    "actual_sha256": "516314ccab66918d7cb647480ac27abd3520d14e1e5825aac99f50c851c16071",
+    "verified": true
+  },
+  {
+    "repo": "prs-eth/marigold-normals-v1-1",
+    "revision": "09cfdd258cb281fa006cf1afcd2284376d16687d",
+    "filename": "tokenizer/vocab.json",
+    "destination": "/workspace/models/marigold/tokenizer/vocab.json",
+    "sha256": null,
+    "bytes": 1059962,
+    "actual_sha256": "e089ad92ba36837a0d31433e555c8f45fe601ab5c221d4f607ded32d9f7a4349",
+    "verified": true
+  },
+  {
+    "repo": "prs-eth/marigold-normals-v1-1",
+    "revision": "09cfdd258cb281fa006cf1afcd2284376d16687d",
+    "filename": "unet/config.json",
+    "destination": "/workspace/models/marigold/unet/config.json",
+    "sha256": null,
+    "bytes": 1813,
+    "actual_sha256": "33797898bbc3da990e861614bb8d132cd950f3fcfabcf2f95feb722a52598e8a",
+    "verified": true
+  },
+  {
+    "repo": "prs-eth/marigold-normals-v1-1",
+    "revision": "09cfdd258cb281fa006cf1afcd2284376d16687d",
+    "filename": "unet/diffusion_pytorch_model.fp16.safetensors",
+    "destination": "/workspace/models/marigold/unet/diffusion_pytorch_model.fp16.safetensors",
+    "sha256": "e90ff52ea6b56275a633cab0138ef8448fb5cffc9c1f283fb13520233b46d947",
+    "bytes": 1731927776,
+    "actual_sha256": "e90ff52ea6b56275a633cab0138ef8448fb5cffc9c1f283fb13520233b46d947",
+    "verified": true
+  },
+  {
+    "repo": "prs-eth/marigold-normals-v1-1",
+    "revision": "09cfdd258cb281fa006cf1afcd2284376d16687d",
+    "filename": "vae/config.json",
+    "destination": "/workspace/models/marigold/vae/config.json",
+    "sha256": null,
+    "bytes": 711,
+    "actual_sha256": "52dbd493c4a9bd8d46867790f61f0bc4bc441d509ada5e07ce6c1c81c3c89da5",
+    "verified": true
+  },
+  {
+    "repo": "prs-eth/marigold-normals-v1-1",
+    "revision": "09cfdd258cb281fa006cf1afcd2284376d16687d",
+    "filename": "vae/diffusion_pytorch_model.fp16.safetensors",
+    "destination": "/workspace/models/marigold/vae/diffusion_pytorch_model.fp16.safetensors",
+    "sha256": "3e4c08995484ee61270175e9e7a072b66a6e4eeb5f0c266667fe1f45b90daf9a",
+    "bytes": 167335342,
+    "actual_sha256": "3e4c08995484ee61270175e9e7a072b66a6e4eeb5f0c266667fe1f45b90daf9a",
+    "verified": true
+  },
+  {
+    "repo": "Ruicheng/moge-2-vitl",
+    "revision": "39c4d5e957afe587e04eec59dc2bcc3be5ecd968",
+    "filename": "model.pt",
+    "destination": "/workspace/models/moge/model.pt",
+    "sha256": "3eefd4abb2102f38f12b2d1992e5ff15e4923e5431c67dd494afe157e0111cd5",
+    "bytes": 1305030700,
+    "actual_sha256": "3eefd4abb2102f38f12b2d1992e5ff15e4923e5431c67dd494afe157e0111cd5",
+    "verified": true
+  }
+]

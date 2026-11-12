@@ -1,0 +1,46 @@
+{
+  "n": 100,
+  "real": 50,
+  "ai": 50,
+  "primary_score": "mean angular disagreement, radius 4",
+  "direction": "higher = AI (not flipped)",
+  "auroc": 0.3304,
+  "auroc_95pct_stratified_image_bootstrap": [
+    0.2268,
+    0.44081
+  ],
+  "bootstrap_replicates": 2000,
+  "bootstrap_seed": 180,
+  "classes": {
+    "real": {
+      "n": 50,
+      "mean_disagreement_deg": 33.26124019622803,
+      "median_disagreement_deg": 35.33998489379883,
+      "q25_deg": 19.9466609954834,
+      "q75_deg": 43.318169593811035,
+      "mean_interior_coverage": 1.0,
+      "mean_moge_mask_fraction": 0.8791818654537201
+    },
+    "ai": {
+      "n": 50,
+      "mean_disagreement_deg": 25.187032251358033,
+      "median_disagreement_deg": 22.386149406433105,
+      "q25_deg": 12.850614786148071,
+      "q75_deg": 35.72042369842529,
+      "mean_interior_coverage": 1.0,
+      "mean_moge_mask_fraction": 0.9412350559234619
+    }
+  },
+  "secondary": {
+    "radius1_mean_angle_deg": {
+      "auroc": 0.3292
+    },
+    "radius4_median_angle_deg": {
+      "auroc": 0.36
+    },
+    "radius4_mean_abs_facing_component_difference": {
+      "auroc": 0.3168
+    }
+  },
+  "failures": 0
+}

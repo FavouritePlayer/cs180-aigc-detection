@@ -1,0 +1,18 @@
+{
+  "complete_records": 100,
+  "real": 50,
+  "ai": 50,
+  "depth_records": 100,
+  "unique_original_ids": 100,
+  "exact_frozen_manifest_match": true,
+  "unique_processed_rgb_hashes": 100,
+  "matching_processed_pixels_both_models": true,
+  "all_scores_and_coverages_finite": true,
+  "primary_score_radius4_mean_angle": true,
+  "protocol_hash_unchanged_since_before_inference": true,
+  "checkpoint_verification_passed": true,
+  "detection_metric_tests_passed": 3,
+  "existing_geometry_metric_tests_passed": 4,
+  "new_python_files_compile": true,
+  "failed_images": 0
+}

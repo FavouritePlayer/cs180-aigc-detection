@@ -1,0 +1,7 @@
+{
+  "remote_and_committed_runner_hashes_match": true,
+  "sha256": {
+    "stage2/run_frontier.py": "bdc707703f144f6185182240ea3684010c1a656593315f721ebc0a21939f9883",
+    "stage1/metrics.py": "917735308d83b1f3397bc3cbadefb10520c6c17ab14f9365801d617b3cd348a4"
+  }
+}

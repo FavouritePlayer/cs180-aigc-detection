@@ -1,0 +1,13 @@
+{
+  "originals": 100,
+  "real": 50,
+  "ai": 50,
+  "unique_original_ids": 100,
+  "unique_image_sha256": 100,
+  "public_lfs_sha256_verified": 100,
+  "dataset_revision": "e6a8b83d15fab1da958848368fcd07e943afafd0",
+  "all_original_files_verified_on_remote": true,
+  "protocol_sha256": "64e521d0145697b221227f2f978be80772a6d6141ef01f64f8f4603602f966f6",
+  "protocol_frozen_before_inference": true,
+  "frozen_utc": "2026-11-12T07:04:27.905480+00:00"
+}
