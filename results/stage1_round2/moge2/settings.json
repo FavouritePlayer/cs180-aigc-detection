@@ -1,0 +1,7 @@
+{
+  "precision": "official infer fp16",
+  "resolution_level": 9,
+  "fov_x_input": null,
+  "apply_mask": false,
+  "force_projection": true
+}

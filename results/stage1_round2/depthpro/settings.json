@@ -1,0 +1,5 @@
+{
+  "precision": "fp16",
+  "input": "official 1536 multi-scale inference",
+  "focal_input": null
+}

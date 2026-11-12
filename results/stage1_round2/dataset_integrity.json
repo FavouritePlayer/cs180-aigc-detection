@@ -1,0 +1,7 @@
+{
+  "DIODE_val_archive_md5": "5c895d09201b88973c8fe4552a67dd85",
+  "DIODE_val_normals_archive_md5": "323ccaf60abebdb59705dcd8b529d709",
+  "archive_md5_verified_before_extraction": true,
+  "rgb_sha256_checked_against_manifest_each_inference": true,
+  "manifest": "stage1/manifest.json"
+}

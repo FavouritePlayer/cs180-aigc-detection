@@ -1,0 +1,25 @@
+{
+  "models": {
+    "moge2": {
+      "records": 200,
+      "indoor": 100,
+      "outdoor": 100
+    },
+    "depthpro": {
+      "records": 200,
+      "indoor": 100,
+      "outdoor": 100
+    },
+    "unidepthv2": {
+      "records": 200,
+      "indoor": 100,
+      "outdoor": 100
+    }
+  },
+  "exact_manifest_match": true,
+  "identical_depth_pixel_counts_all_models_and_prior_round": true,
+  "all_metrics_finite": true,
+  "metric_unit_tests_passed": 4,
+  "compiled_new_runners": true,
+  "identical_normal_pixel_counts_among_new_models_both_stencils": true
+}

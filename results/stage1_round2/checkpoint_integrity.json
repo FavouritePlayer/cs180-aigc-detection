@@ -1,0 +1,28 @@
+{
+  "depthpro": {
+    "bytes": 1904446787,
+    "sha256": "3eb35ca68168ad3d14cb150f8947a4edf85589941661fdb2686259c80685c0ce",
+    "zip_bad_member": null,
+    "url": "https://ml-site.cdn-apple.com/models/depth-pro/depth_pro.pt",
+    "verified_size_and_zip_crc": true,
+    "published_sha256_available": false
+  },
+  "unidepthv2": {
+    "bytes": 1415494210,
+    "sha256": "101d4a941854e7f7ec6839a5a39bfe35bd5cc59ed65d8c5994a55607d8481541",
+    "expected_sha256": "101d4a941854e7f7ec6839a5a39bfe35bd5cc59ed65d8c5994a55607d8481541",
+    "verified": true,
+    "repository": "lpiccinelli/unidepth-v2-vitl14",
+    "repository_revision": "52b349b514bd8b47642f67ac78cb7b5dc5c51dd9",
+    "filename": "pytorch_model.bin"
+  },
+  "moge2": {
+    "bytes": 1305030700,
+    "sha256": "3eefd4abb2102f38f12b2d1992e5ff15e4923e5431c67dd494afe157e0111cd5",
+    "expected_sha256": "3eefd4abb2102f38f12b2d1992e5ff15e4923e5431c67dd494afe157e0111cd5",
+    "verified": true,
+    "repository": "Ruicheng/moge-2-vitl",
+    "repository_revision": "39c4d5e957afe587e04eec59dc2bcc3be5ecd968",
+    "filename": "model.pt"
+  }
+}

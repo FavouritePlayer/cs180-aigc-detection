@@ -48,3 +48,25 @@ python stage1/summarize_calibration.py results/stage1
 Use a fresh output directory for each run; JSONL files append to preserve completed work. Check output coverage and uniqueness before interpreting summaries. Large predictions, datasets, and weights are excluded from Git. Per-image `seconds` includes prediction saving and reference-array I/O and is not a pure GPU latency benchmark. `expected_weights.json` records public Hugging Face LFS SHA-256 hashes; `verify_weights.py` checks actual checkpoint bytes against them. `download.py` supports validated parallel byte ranges, and `prefetch_hf.py` fetches only inference files when the default model downloader is slow. Both model adapters accept local pretrained-model paths.
 
 Stage 2, GenImage, and optional NYU are not run. No conclusion about real-versus-generated discrimination follows from stage 1 alone.
+
+
+## Additional RGB-only depth models (round 2)
+
+[Results, checkpoint hashes, and the separate $1 budget ledger](../results/stage1_round2/REPORT.md).
+The same frozen 200-image manifest and metrics are used. Model inputs contain RGB only: no measured camera intrinsics, EXIF focal length, depth, or fitted scale. Known DIODE intrinsics are used afterward only to derive normals for evaluation. The older DepthART result uses known intrinsics and TR2M uses an automatically generated BLIP caption; these are labeled in comparisons.
+
+Source commits are pinned in `results/stage1_round2/source_revisions.json`; checkpoint URLs/revisions and SHA-256 values are in `checkpoint_integrity.json`. Clone each official source at that commit. Put checkpoints under `models/depthpro/depth_pro.pt`, `models/unidepth/pytorch_model.bin` (with `config.json`), and `models/moge/model.pt`. Put the pinned `utils3d-moge` checkout alongside the MoGe checkout, in a folder named `utils3d`.
+
+Run in Python 3.11, PyTorch 2.5.1/CUDA 12.4 with torchvision 0.20.1. Additional inference packages: `opencv-python-headless==4.10.0.84 timm==1.0.15 einops==0.8.1 scipy==1.15.2 huggingface_hub==0.36.0 safetensors==0.5.3 matplotlib==3.10.0 wandb==0.19.11 pillow_heif==0.22.0`. Base NumPy is 2.1.2; Depth Pro runs in a separate environment with NumPy 1.26.4 and the same Torch installation. Exact installed versions are in `runtime_provenance.json`. No optional UniDepth KNN/xformers kernel is required for inference.
+
+```bash
+# Change --model and --source to run moge2 or depthpro. Use Depth Pro's own Python environment.
+WANDB_MODE=disabled python stage1/run_more_depth.py --model unidepthv2 \
+  --root data --source sources/unidepth --weights models \
+  --manifest stage1/manifest.json --out results/stage1_round2/unidepthv2
+python stage1/validate_results.py results/stage1_round2
+python stage1/summarize.py results/stage1_round2
+python stage1/summarize_more_depth.py results/stage1_round2
+```
+
+Use `--resume` only for the same checkpoint/settings, to skip already completed image paths. Predictions are saved as `.npy` files locally but excluded from Git. All 200 records per model, including raw metrics, diagnostic median alignment, camera predictions, and ground-truth-normal errors, are committed. Median-aligned fields are explicitly diagnostic and are not used in headline model rankings. MoGe's learned metric scale is part of inference; its predicted validity mask is recorded but does not remove any ground-truth-valid evaluation pixels (`apply_mask=False`).

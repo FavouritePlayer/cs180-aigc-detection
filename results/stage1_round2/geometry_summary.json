@@ -1,0 +1,98 @@
+[
+  {
+    "model": "depthpro",
+    "domain": "indoors",
+    "stride_pixels": 1,
+    "n": 100,
+    "vs_gt_mean_angle_deg": 21.331219062805175,
+    "mean_valid_pixels": 757800.16
+  },
+  {
+    "model": "depthpro",
+    "domain": "indoors",
+    "stride_pixels": 4,
+    "n": 100,
+    "vs_gt_mean_angle_deg": 18.68544626235962,
+    "mean_valid_pixels": 744900.69
+  },
+  {
+    "model": "depthpro",
+    "domain": "outdoor",
+    "stride_pixels": 1,
+    "n": 100,
+    "vs_gt_mean_angle_deg": 33.46757860183716,
+    "mean_valid_pixels": 505779.02
+  },
+  {
+    "model": "depthpro",
+    "domain": "outdoor",
+    "stride_pixels": 4,
+    "n": 100,
+    "vs_gt_mean_angle_deg": 27.414065132141115,
+    "mean_valid_pixels": 484932.7
+  },
+  {
+    "model": "moge2",
+    "domain": "indoors",
+    "stride_pixels": 1,
+    "n": 100,
+    "vs_gt_mean_angle_deg": 16.687907724380494,
+    "mean_valid_pixels": 757800.16
+  },
+  {
+    "model": "moge2",
+    "domain": "indoors",
+    "stride_pixels": 4,
+    "n": 100,
+    "vs_gt_mean_angle_deg": 16.798236289024352,
+    "mean_valid_pixels": 744900.69
+  },
+  {
+    "model": "moge2",
+    "domain": "outdoor",
+    "stride_pixels": 1,
+    "n": 100,
+    "vs_gt_mean_angle_deg": 23.586765069961547,
+    "mean_valid_pixels": 505779.02
+  },
+  {
+    "model": "moge2",
+    "domain": "outdoor",
+    "stride_pixels": 4,
+    "n": 100,
+    "vs_gt_mean_angle_deg": 22.788506622314454,
+    "mean_valid_pixels": 484932.7
+  },
+  {
+    "model": "unidepthv2",
+    "domain": "indoors",
+    "stride_pixels": 1,
+    "n": 100,
+    "vs_gt_mean_angle_deg": 19.71567693710327,
+    "mean_valid_pixels": 757800.16
+  },
+  {
+    "model": "unidepthv2",
+    "domain": "indoors",
+    "stride_pixels": 4,
+    "n": 100,
+    "vs_gt_mean_angle_deg": 17.464671831130982,
+    "mean_valid_pixels": 744900.69
+  },
+  {
+    "model": "unidepthv2",
+    "domain": "outdoor",
+    "stride_pixels": 1,
+    "n": 100,
+    "vs_gt_mean_angle_deg": 27.038688201904296,
+    "mean_valid_pixels": 505779.02
+  },
+  {
+    "model": "unidepthv2",
+    "domain": "outdoor",
+    "stride_pixels": 4,
+    "n": 100,
+    "vs_gt_mean_angle_deg": 23.319741582870485,
+    "mean_valid_pixels": 484932.7
+  }
+]

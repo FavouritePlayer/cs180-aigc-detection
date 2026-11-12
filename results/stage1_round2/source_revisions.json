@@ -1,0 +1,18 @@
+{
+  "depthpro": {
+    "url": "https://github.com/apple/ml-depth-pro",
+    "commit": "9e65e4dbe9568d23c546fcec53302b10445e109e"
+  },
+  "unidepthv2": {
+    "url": "https://github.com/lpiccinelli-eth/UniDepth",
+    "commit": "8d8cfe4c7ee15297099983607febf0d4f32eb3d6"
+  },
+  "moge2": {
+    "url": "https://github.com/microsoft/MoGe",
+    "commit": "74fbce054ebed49800de42d0ad0e83495065719a"
+  },
+  "utils3d_moge": {
+    "url": "https://github.com/EasternJournalist/utils3d-moge",
+    "commit": "62f09d58509485564e24d5d9f6aac9ee9ebc0c37"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "precision": "official infer autocast fp16",
+  "resolution_level": 9,
+  "camera_input": null,
+  "checkpoint_load": "strict"
+}
