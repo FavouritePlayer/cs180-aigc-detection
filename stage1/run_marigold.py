@@ -5,14 +5,14 @@ import numpy as np,torch
 from PIL import Image
 from diffusers import MarigoldNormalsPipeline
 from metrics import normal_metrics,depth_to_normals
-p=argparse.ArgumentParser();p.add_argument('--root',required=True);p.add_argument('--manifest',required=True);p.add_argument('--out',required=True);p.add_argument('--depth-results',required=True);a=p.parse_args()
+p=argparse.ArgumentParser();p.add_argument('--root',required=True);p.add_argument('--manifest',required=True);p.add_argument('--out',required=True);p.add_argument('--depth-results',required=True);p.add_argument('--model',default='prs-eth/marigold-normals-v1-1');a=p.parse_args()
 out=Path(a.out);out.mkdir(parents=True,exist_ok=True);torch.set_num_threads(4)
-pipe=MarigoldNormalsPipeline.from_pretrained('prs-eth/marigold-normals-v1-1',variant='fp16',torch_dtype=torch.float16).to('cuda');pipe.set_progress_bar_config(disable=True)
+pipe=MarigoldNormalsPipeline.from_pretrained(a.model,variant='fp16',torch_dtype=torch.float16).to('cuda');pipe.set_progress_bar_config(disable=True)
 for row in json.loads(Path(a.manifest).read_text()):
     f=Path(a.root)/row['path'];start=time.time();seed=int(hashlib.sha256(row['path'].encode()).hexdigest()[:8],16)
     with torch.inference_mode():
         pred=pipe(Image.open(f).convert('RGB'),num_inference_steps=4,ensemble_size=10,processing_resolution=768,match_input_resolution=True,generator=torch.Generator(device='cuda').manual_seed(seed)).prediction[0]
-    gt=np.load(str(f.with_suffix(''))+'_normal.npy');mask=np.linalg.norm(gt,axis=-1)>.5
+    gt=np.load(str(f.with_suffix(''))+'_normal.npy');mask=np.linalg.norm(gt,axis=-1)>1e-6
     np.save(out/(f.stem+'_normal.npy'),pred.astype(np.float32))
     reference_depth=np.load(str(f.with_suffix(''))+'_depth.npy').squeeze()
     depth_mask=np.load(str(f.with_suffix(''))+'_depth_mask.npy').squeeze().astype(bool) & (reference_depth>0)

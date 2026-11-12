@@ -1,0 +1,17 @@
+{
+  "record_files": 5,
+  "images_per_model": 200,
+  "indoor_per_model": 100,
+  "outdoor_per_model": 100,
+  "unique_paths_and_rgb_checksums_match_manifest": true,
+  "geocalib_failed_images": 0,
+  "unit_tests_passed": 4,
+  "python_compilation_passed": true,
+  "diode_depth_md5": "5c895d09201b88973c8fe4552a67dd85",
+  "diode_normals_md5": "323ccaf60abebdb59705dcd8b529d709",
+  "diode_archives_md5_verified": true,
+  "hf_checkpoint_files_sha256_verified": 9,
+  "tr2m_head_matches_official_git_checkpoint": true,
+  "clip_matches_published_sha256": true,
+  "qualitative_figures_visually_reviewed": true
+}

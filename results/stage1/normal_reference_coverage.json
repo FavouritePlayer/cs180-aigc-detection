@@ -1,0 +1,14 @@
+{
+  "indoors": {
+    "n": 100,
+    "zero_valid_reference_images": [],
+    "mean_normal_valid_fraction": 0.9768420537312826,
+    "minimum_normal_valid_pixels": 650692
+  },
+  "outdoor": {
+    "n": 100,
+    "zero_valid_reference_images": [],
+    "mean_normal_valid_fraction": 0.6559622828165691,
+    "minimum_normal_valid_pixels": 131010
+  }
+}

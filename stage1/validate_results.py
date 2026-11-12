@@ -3,7 +3,7 @@ import argparse,json
 from pathlib import Path
 p=argparse.ArgumentParser();p.add_argument('results');p.add_argument('--manifest',default='stage1/manifest.json');a=p.parse_args()
 manifest=json.loads(Path(a.manifest).read_text());expected={r['path']:r for r in manifest}
-files=list(Path(a.results).glob('*/per_image*.jsonl'))
+files=list(Path(a.results).glob('*/per_image*.jsonl'))+list(Path(a.results).glob('*/calibration.jsonl'))
 if not files:raise SystemExit('No model results found')
 for f in files:
     rows=[json.loads(s) for s in f.read_text().splitlines()]

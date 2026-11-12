@@ -1,0 +1,3 @@
+model,domain,n,successful,failed,mean_focal_abs_rel,median_focal_abs_rel,p90_focal_abs_rel
+geocalib_pinhole,indoors,100,100,0,0.3739548462209074,0.3734253387434484,0.6396410299791105
+geocalib_pinhole,outdoor,100,100,0,0.4240753854095179,0.4052548568896398,0.6619368210065127

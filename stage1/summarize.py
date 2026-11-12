@@ -20,5 +20,5 @@ for file in sorted(root.glob('*/per_image.jsonl')):
 (root/'summary.json').write_text(json.dumps(summary,indent=2)+'\n')
 if summary:
     with (root/'summary.csv').open('w') as f:
-        w=csv.DictWriter(f,fieldnames=list(summary[0]));w.writeheader();w.writerows(summary)
+        w=csv.DictWriter(f,fieldnames=list(summary[0]),lineterminator="\n");w.writeheader();w.writerows(summary)
 print(json.dumps(summary,indent=2))

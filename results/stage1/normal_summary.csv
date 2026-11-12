@@ -1,0 +1,3 @@
+model,domain,n,mean_angular_error_deg,mean_image_median_angle_deg,fraction_within_11_25
+marigold_normals_v1_1_e10_s4,indoors,100,15.355188801288605,10.518394421339035,0.5528403234841835
+marigold_normals_v1_1_e10_s4,outdoor,100,19.86037524700165,12.42142038345337,0.45115848216338994

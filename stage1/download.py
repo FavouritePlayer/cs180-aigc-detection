@@ -5,7 +5,12 @@ import requests
 
 def download(url,dest,workers=16,chunk_mb=16):
     dest=Path(dest);dest.parent.mkdir(parents=True,exist_ok=True)
-    r=requests.get(url,headers={'Range':'bytes=0-0'},stream=True,timeout=(20,60));r.raise_for_status()
+    for attempt in range(5):
+        try:
+            r=requests.get(url,headers={'Range':'bytes=0-0'},stream=True,timeout=(20,60));r.raise_for_status();break
+        except Exception:
+            if attempt==4:raise
+            time.sleep(min(2**attempt,10))
     if r.status_code!=206 or not r.headers.get('Content-Range','').startswith('bytes 0-0/'):
         raise RuntimeError('Server does not support validated range requests')
     size=int(r.headers['Content-Range'].split('/')[-1]);r.close()
@@ -33,8 +38,9 @@ def download(url,dest,workers=16,chunk_mb=16):
     try:
         done=0
         with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as ex:
-            for result in ex.map(part,range(0,size,chunk)):
-                done+=result;print(f'{dest.name}: {done}/{size}',flush=True)
+            futures=[ex.submit(part,start) for start in range(0,size,chunk)]
+            for future in concurrent.futures.as_completed(futures):
+                done+=future.result();print(f'{dest.name}: {done}/{size}',flush=True)
         os.fsync(fd)
     finally:os.close(fd)
     return size

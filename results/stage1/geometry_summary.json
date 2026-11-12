@@ -1,0 +1,130 @@
+[
+  {
+    "model": "measured_depth",
+    "domain": "indoors",
+    "stride_pixels": 1,
+    "n": 100,
+    "vs_gt_mean_angle_deg": 16.730463733673094,
+    "vs_independent_mean_angle_deg": null
+  },
+  {
+    "model": "dav2",
+    "domain": "indoors",
+    "stride_pixels": 1,
+    "n": 100,
+    "vs_gt_mean_angle_deg": 22.981689348220826,
+    "vs_independent_mean_angle_deg": 20.146986532211304
+  },
+  {
+    "model": "depthart",
+    "domain": "indoors",
+    "stride_pixels": 1,
+    "n": 100,
+    "vs_gt_mean_angle_deg": 32.80040609359741,
+    "vs_independent_mean_angle_deg": 29.976490879058836
+  },
+  {
+    "model": "tr2m",
+    "domain": "indoors",
+    "stride_pixels": 1,
+    "n": 100,
+    "vs_gt_mean_angle_deg": 49.83065475463867,
+    "vs_independent_mean_angle_deg": 48.40972885131836
+  },
+  {
+    "model": "measured_depth",
+    "domain": "indoors",
+    "stride_pixels": 4,
+    "n": 100,
+    "vs_gt_mean_angle_deg": 19.33072762966156,
+    "vs_independent_mean_angle_deg": null
+  },
+  {
+    "model": "dav2",
+    "domain": "indoors",
+    "stride_pixels": 4,
+    "n": 100,
+    "vs_gt_mean_angle_deg": 20.24557285308838,
+    "vs_independent_mean_angle_deg": 16.741447200775145
+  },
+  {
+    "model": "depthart",
+    "domain": "indoors",
+    "stride_pixels": 4,
+    "n": 100,
+    "vs_gt_mean_angle_deg": 32.08223903656006,
+    "vs_independent_mean_angle_deg": 29.196294956207275
+  },
+  {
+    "model": "tr2m",
+    "domain": "indoors",
+    "stride_pixels": 4,
+    "n": 100,
+    "vs_gt_mean_angle_deg": 47.915191650390625,
+    "vs_independent_mean_angle_deg": 46.39808422088623
+  },
+  {
+    "model": "measured_depth",
+    "domain": "outdoor",
+    "stride_pixels": 1,
+    "n": 100,
+    "vs_gt_mean_angle_deg": 32.69290085315704,
+    "vs_independent_mean_angle_deg": null
+  },
+  {
+    "model": "dav2",
+    "domain": "outdoor",
+    "stride_pixels": 1,
+    "n": 100,
+    "vs_gt_mean_angle_deg": 40.262694683074955,
+    "vs_independent_mean_angle_deg": 38.58501617431641
+  },
+  {
+    "model": "depthart",
+    "domain": "outdoor",
+    "stride_pixels": 1,
+    "n": 100,
+    "vs_gt_mean_angle_deg": 42.567999076843265,
+    "vs_independent_mean_angle_deg": 38.64441362380981
+  },
+  {
+    "model": "tr2m",
+    "domain": "outdoor",
+    "stride_pixels": 1,
+    "n": 100,
+    "vs_gt_mean_angle_deg": 55.80157901763916,
+    "vs_independent_mean_angle_deg": 54.06437858581543
+  },
+  {
+    "model": "measured_depth",
+    "domain": "outdoor",
+    "stride_pixels": 4,
+    "n": 100,
+    "vs_gt_mean_angle_deg": 37.8427871131897,
+    "vs_independent_mean_angle_deg": null
+  },
+  {
+    "model": "dav2",
+    "domain": "outdoor",
+    "stride_pixels": 4,
+    "n": 100,
+    "vs_gt_mean_angle_deg": 34.302992734909054,
+    "vs_independent_mean_angle_deg": 31.99946834564209
+  },
+  {
+    "model": "depthart",
+    "domain": "outdoor",
+    "stride_pixels": 4,
+    "n": 100,
+    "vs_gt_mean_angle_deg": 39.550349445343016,
+    "vs_independent_mean_angle_deg": 35.46396825790405
+  },
+  {
+    "model": "tr2m",
+    "domain": "outdoor",
+    "stride_pixels": 4,
+    "n": 100,
+    "vs_gt_mean_angle_deg": 54.52230716705322,
+    "vs_independent_mean_angle_deg": 52.69657070159912
+  }
+]

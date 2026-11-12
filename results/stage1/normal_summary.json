@@ -1,0 +1,18 @@
+[
+  {
+    "model": "marigold_normals_v1_1_e10_s4",
+    "domain": "indoors",
+    "n": 100,
+    "mean_angular_error_deg": 15.355188801288605,
+    "mean_image_median_angle_deg": 10.518394421339035,
+    "fraction_within_11_25": 0.5528403234841835
+  },
+  {
+    "model": "marigold_normals_v1_1_e10_s4",
+    "domain": "outdoor",
+    "n": 100,
+    "mean_angular_error_deg": 19.86037524700165,
+    "mean_image_median_angle_deg": 12.42142038345337,
+    "fraction_within_11_25": 0.45115848216338994
+  }
+]

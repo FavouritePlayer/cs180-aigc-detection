@@ -11,8 +11,36 @@
     "reason": "Hugging Face metadata reports gated=manual; approved authenticated access required."
   },
   "geocalib": {
-    "status": "not_run",
+    "status": "complete",
+    "task": "camera intrinsics",
+    "configuration": "pinhole v1.0, no focal prior",
+    "images": 200,
     "source": "https://github.com/cvg/GeoCalib",
-    "reason": "Calibration estimator, not a depth estimator. Published DIODE intrinsics used for the known-calibration depth benchmark. Calibration error propagation not evaluated."
+    "primary_metric": "focal_abs_rel",
+    "condition": "Evaluated separately; depth and normal scores use known DIODE intrinsics."
+  },
+  "dav2_metric_large": {
+    "status": "complete",
+    "task": "metric depth",
+    "images": 200,
+    "configuration": "Hypersim indoor / VKITTI outdoor, official 518 input setting"
+  },
+  "depthart_metric_large": {
+    "status": "complete",
+    "task": "metric depth",
+    "images": 200,
+    "configuration": "Indoor / outdoor L448 checkpoints, known DIODE intrinsics"
+  },
+  "tr2m_blip_base": {
+    "status": "complete",
+    "task": "metric depth",
+    "images": 200,
+    "configuration": "Saved RGB-only BLIP-base captions, official bundled DINOv2 code"
+  },
+  "marigold_normals_v1_1": {
+    "status": "complete",
+    "task": "surface normals",
+    "images": 200,
+    "configuration": "FP16, DDIM4, ensemble10, batch1, processing resolution768"
   }
 }

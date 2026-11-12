@@ -1,0 +1,22 @@
+[
+  {
+    "model": "geocalib_pinhole",
+    "domain": "indoors",
+    "n": 100,
+    "successful": 100,
+    "failed": 0,
+    "mean_focal_abs_rel": 0.3739548462209074,
+    "median_focal_abs_rel": 0.3734253387434484,
+    "p90_focal_abs_rel": 0.6396410299791105
+  },
+  {
+    "model": "geocalib_pinhole",
+    "domain": "outdoor",
+    "n": 100,
+    "successful": 100,
+    "failed": 0,
+    "mean_focal_abs_rel": 0.4240753854095179,
+    "median_focal_abs_rel": 0.4052548568896398,
+    "p90_focal_abs_rel": 0.6619368210065127
+  }
+]

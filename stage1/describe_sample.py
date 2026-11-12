@@ -12,5 +12,5 @@ for domain in ['indoors','outdoor']:
     rr=[r for r in rows if r['domain']==domain];ss=[r for r in stats if r['domain']==domain]
     summary[domain]={'n':len(rr),'scenes':dict(Counter(Path(r['path']).parts[2] for r in rr)),'mean_valid_fraction':float(np.mean([r['valid_fraction'] for r in ss])),'mean_fraction_ge_10m':float(np.mean([r['fraction_ge_10m'] for r in ss])),'mean_fraction_ge_20m':float(np.mean([r['fraction_ge_20m'] for r in ss])),'mean_fraction_ge_80m':float(np.mean([r['fraction_ge_80m'] for r in ss]))}
 out=Path(a.out);out.mkdir(parents=True,exist_ok=True);(out/'sample_statistics.json').write_text(json.dumps(summary,indent=2)+'\n')
-with (out/'sample_statistics.csv').open('w') as f:w=csv.DictWriter(f,fieldnames=list(stats[0]));w.writeheader();w.writerows(stats)
+with (out/'sample_statistics.csv').open('w') as f:w=csv.DictWriter(f,fieldnames=list(stats[0]),lineterminator="\n");w.writeheader();w.writerows(stats)
 print(json.dumps(summary,indent=2))

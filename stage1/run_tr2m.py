@@ -5,21 +5,37 @@ import cv2,numpy as np,torch
 import torch.nn.functional as F
 from PIL import Image
 from metrics import depth_metrics
-p=argparse.ArgumentParser();p.add_argument('--root',required=True);p.add_argument('--source',required=True);p.add_argument('--manifest',required=True);p.add_argument('--out',required=True);a=p.parse_args()
+p=argparse.ArgumentParser();p.add_argument('--root',required=True);p.add_argument('--source',required=True);p.add_argument('--manifest',required=True);p.add_argument('--out',required=True);p.add_argument('--captions');p.add_argument('--caption-model',default='Salesforce/blip-image-captioning-base');a=p.parse_args()
 root=Path(a.root);src=Path(a.source).resolve();out=Path(a.out).resolve();out.mkdir(parents=True,exist_ok=True)
 rows=json.loads(Path(a.manifest).read_text());torch.set_num_threads(4)
-from transformers import BlipProcessor,BlipForConditionalGeneration
-processor=BlipProcessor.from_pretrained('Salesforce/blip-image-captioning-base')
-captioner=BlipForConditionalGeneration.from_pretrained('Salesforce/blip-image-captioning-base').cuda().eval()
-for row in rows:
-    im=Image.open(root/row['path']).convert('RGB')
-    with torch.inference_mode():tokens=captioner.generate(**processor(images=im,return_tensors='pt').to('cuda'),max_new_tokens=50,do_sample=False,num_beams=1)
-    row['caption']=processor.decode(tokens[0],skip_special_tokens=True)
-(out/'captions.json').write_text(json.dumps(rows,indent=2)+'\n');del captioner;torch.cuda.empty_cache()
+if a.captions:
+    saved={r['path']:r for r in json.loads(Path(a.captions).read_text())}
+    assert set(saved)=={r['path'] for r in rows},'Caption manifest mismatch'
+    for row in rows:
+        assert saved[row['path']]['sha256']==row['sha256'],'Caption image checksum mismatch'
+        row['caption']=saved[row['path']]['caption']
+else:
+    from transformers import BlipProcessor,BlipForConditionalGeneration
+    processor=BlipProcessor.from_pretrained(a.caption_model)
+    captioner=BlipForConditionalGeneration.from_pretrained(a.caption_model).cuda().eval()
+    for row in rows:
+        im=Image.open(root/row['path']).convert('RGB')
+        with torch.inference_mode():tokens=captioner.generate(**processor(images=im,return_tensors='pt').to('cuda'),max_new_tokens=50,do_sample=False,num_beams=1)
+        row['caption']=processor.decode(tokens[0],skip_special_tokens=True)
+    del captioner;torch.cuda.empty_cache()
+(out/'captions.json').write_text(json.dumps(rows,indent=2)+'\n')
 sys.path.insert(0,str(src));os.chdir(src)
-from run import build_models,load_image,upsample_to,parse_args
+from run import build_models,load_image,upsample_to,parse_args,DEPTH_MODEL_CONFIGS
 sys.argv=['run.py','--image','unused','--text','unused'];args=parse_args()
-depth,clip,image,head=build_models(args,'cuda')
+DEPTH_MODEL_CONFIGS['vits']['localhub']=True
+hub_load=torch.hub.load
+def load_vendored(repo,model,*args,**kwargs):
+    if repo=='facebookresearch/dinov2':
+        repo=str(src/'torchhub/facebookresearch_dinov2_main');kwargs['source']='local'
+    return hub_load(repo,model,*args,**kwargs)
+torch.hub.load=load_vendored
+try:depth,clip,image,head=build_models(args,'cuda')
+finally:torch.hub.load=hub_load
 from CLIP import clip as clip_module
 for row in rows:
     f=root/row['path'];start=time.time();_,tensor,size=load_image(str(f),434,560,'cuda')
