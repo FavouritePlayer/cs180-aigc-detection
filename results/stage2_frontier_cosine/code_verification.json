@@ -1,0 +1,9 @@
+{
+  "remote_matches_committed_sources": true,
+  "sha256": {
+    "stage2/run_frontier_cosine.py": "5c473d5728d400b2c58618282efce0a294a8d6edef771c03c0e4acd9748e6bcf",
+    "stage2/cosine_geometry.py": "bd8492cb34071b7e13f166a06dfd62cc64f8f17eac8b48457fcb5fd4b99a56de",
+    "stage2/frontier_manifest.json": "e2b96fe73c6e027d6f0da49678ec7280ec7b9e2a997c5c16b31b5232beb2808b",
+    "stage2/PROTOCOL_COSINE.md": "4e0d921b34cec0f36f9f104f8e9477d65ea924b7d5310929c4a8e0a09e6fd702"
+  }
+}

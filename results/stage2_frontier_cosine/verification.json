@@ -1,0 +1,15 @@
+{
+  "complete_images": 100,
+  "real": 50,
+  "ai": 50,
+  "complete_calibration_images": 100,
+  "complete_depth_images_per_checkpoint": 100,
+  "identical_rgb_pixels_across_models_and_prior_pilot": true,
+  "exact_manifest_match": true,
+  "protocol_hash_unchanged": true,
+  "all_metrics_finite_and_in_range": true,
+  "geocalib_all_parameters_verified": true,
+  "dav2_strict_checkpoint_loading": true,
+  "metric_tests_passed": 7,
+  "failed_images": 0
+}

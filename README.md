@@ -16,3 +16,5 @@ Stage 1 evaluates depth, normals, and camera calibration on a fixed DIODE valida
 Marigold Normals v1.1 and GeoCalib were evaluated in the original report. Both HyDen checkpoints were gated and could not be tested. A [stage-2 Frontier pilot](results/stage2_frontier_100/REPORT.md) now tests MoGe-2/Marigold disagreement on 50 real + 50 generated originals. GenImage has not been run.
 
 Stage-2 primary AUROC: **0.330 (95% bootstrap interval 0.227–0.441)**, with the fixed direction higher disagreement = generated. The predeclared signal runs in the wrong direction on this sample: higher disagreement tends to occur on real images. This does not support using high disagreement as a generated-image detector. We did not flip the score to present a better result.
+
+Supplied cosine-method follow-up: [DAV2 Metric + GeoCalib + Marigold, one-pixel forward differences](results/stage2_frontier_cosine/REPORT.md). Primary Outdoor Large mean-residual AUROC: **0.481 (95% bootstrap interval 0.365–0.601)**. Higher residual = generated, fixed before this run. This reuses the same 100 images and is exploratory.

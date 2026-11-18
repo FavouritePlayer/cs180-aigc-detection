@@ -1,0 +1,9 @@
+{
+  "container": "pytorch/pytorch:2.5.1-cuda12.4-cudnn9-devel",
+  "python": "3.11.10",
+  "torch": "2.5.1+cu124",
+  "cuda": "12.4",
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "gpu_memory_bytes": 25296044032,
+  "driver": "580.173.02"
+}
