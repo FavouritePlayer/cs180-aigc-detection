@@ -1,0 +1,10 @@
+{
+  "remote_matches_local": true,
+  "inference_code_and_geometry_helper_identical_to_previous_frontier_cosine_run": true,
+  "sha256": {
+    "stage2/run_frontier_cosine.py": "5c473d5728d400b2c58618282efce0a294a8d6edef771c03c0e4acd9748e6bcf",
+    "stage2/cosine_geometry.py": "bd8492cb34071b7e13f166a06dfd62cc64f8f17eac8b48457fcb5fd4b99a56de",
+    "stage2/coco_matched_manifest.json": "cb1b681031333de219fed87853bed7bbe39ee29afa39b8c28e10c9a2fc8d35d9",
+    "stage2/PROTOCOL_COCO_MATCHED.md": "414c80b7e1b32aeb93f2f9c8e45bc172c31de866725ace809a8d9dca360a9f53"
+  }
+}

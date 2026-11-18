@@ -18,3 +18,5 @@ Marigold Normals v1.1 and GeoCalib were evaluated in the original report. Both H
 Stage-2 primary AUROC: **0.330 (95% bootstrap interval 0.227–0.441)**, with the fixed direction higher disagreement = generated. The predeclared signal runs in the wrong direction on this sample: higher disagreement tends to occur on real images. This does not support using high disagreement as a generated-image detector. We did not flip the score to present a better result.
 
 Supplied cosine-method follow-up: [DAV2 Metric + GeoCalib + Marigold, one-pixel forward differences](results/stage2_frontier_cosine/REPORT.md). Primary Outdoor Large mean-residual AUROC: **0.481 (95% bootstrap interval 0.365–0.601)**. Higher residual = generated, fixed before this run. This reuses the same 100 images and is exploratory.
+
+COCO indoor matched pilot: [50 caption groups, 300 images](results/stage2_coco_matched_300/REPORT.md). Primary pooled mean-residual AUROC **0.429 (95% caption-group bootstrap interval 0.366–0.495)**, using the unchanged supplied cosine method.

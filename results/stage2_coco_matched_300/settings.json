@@ -1,0 +1,17 @@
+{
+  "primary": "outdoor_large_forward1_mean_cosine_residual",
+  "secondary": "indoor_large_same_pipeline; mean angular disagreement for both",
+  "canvas_long_edge": 1024,
+  "resize": "PIL LANCZOS, no crop, aspect preserving",
+  "dav2_input_size": 518,
+  "dav2_precision": "fp32 official infer_image",
+  "geocalib_camera": "pinhole, predicted focal, principal point fixed at image center, no priors",
+  "marigold_steps": 4,
+  "marigold_ensemble": 10,
+  "marigold_processing_resolution": 768,
+  "marigold_precision": "fp16",
+  "derivatives": "forward differences, one pixel, three-point stencil",
+  "residual": "1 - clip(dot(unit depth normal, unit Marigold normal), -1, 1)",
+  "score_direction": "higher = generated",
+  "seed": "first 32 bits of SHA256(image id)"
+}

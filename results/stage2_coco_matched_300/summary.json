@@ -1,0 +1,341 @@
+{
+  "images": 300,
+  "real": 50,
+  "ai": 250,
+  "caption_groups": 50,
+  "ai_per_generator": 50,
+  "primary": "outdoor_large_forward1_mean_cosine_residual",
+  "direction": "higher residual = generated, fixed, not flipped",
+  "score_range": [
+    0,
+    2
+  ],
+  "generator_order": [
+    "sd21",
+    "sdxl",
+    "sd3",
+    "dalle3",
+    "midjourney"
+  ],
+  "variants": {
+    "outdoor": {
+      "auroc": 0.4288,
+      "auroc_95pct_caption_cluster_bootstrap": [
+        0.36576,
+        0.49464400000000003
+      ],
+      "paired_mean_difference": -0.02483526349067688,
+      "paired_difference_95pct_caption_cluster_bootstrap": [
+        -0.04710210110843182,
+        -0.0021017215460538865
+      ],
+      "per_generator_auroc": [
+        0.334,
+        0.3796,
+        0.35,
+        0.544,
+        0.5364
+      ],
+      "per_generator_auroc_ci95": [
+        [
+          0.2548,
+          0.40880999999999995
+        ],
+        [
+          0.286,
+          0.4776
+        ],
+        [
+          0.26439,
+          0.43681999999999993
+        ],
+        [
+          0.46038999999999997,
+          0.634
+        ],
+        [
+          0.45475,
+          0.6164199999999999
+        ]
+      ],
+      "per_generator_paired_mean_difference": [
+        -0.05882488399744034,
+        -0.04456759959459305,
+        -0.05347963988780975,
+        0.019099369943141938,
+        0.013596436083316803
+      ],
+      "per_generator_fraction_above_matched_real": [
+        0.32,
+        0.4,
+        0.3,
+        0.56,
+        0.6
+      ],
+      "bootstrap_replicates": 2000,
+      "bootstrap_seed": 180,
+      "bootstrap_unit": "complete caption group, preserving real and all generated counterparts",
+      "groups": 50,
+      "generators": 5,
+      "per_generator": {
+        "sd21": {
+          "auroc": 0.334,
+          "auroc_ci95": [
+            0.2548,
+            0.40880999999999995
+          ],
+          "mean_paired_difference": -0.05882488399744034,
+          "fraction_above_matched_real": 0.32
+        },
+        "sdxl": {
+          "auroc": 0.3796,
+          "auroc_ci95": [
+            0.286,
+            0.4776
+          ],
+          "mean_paired_difference": -0.04456759959459305,
+          "fraction_above_matched_real": 0.4
+        },
+        "sd3": {
+          "auroc": 0.35,
+          "auroc_ci95": [
+            0.26439,
+            0.43681999999999993
+          ],
+          "mean_paired_difference": -0.05347963988780975,
+          "fraction_above_matched_real": 0.3
+        },
+        "dalle3": {
+          "auroc": 0.544,
+          "auroc_ci95": [
+            0.46038999999999997,
+            0.634
+          ],
+          "mean_paired_difference": 0.019099369943141938,
+          "fraction_above_matched_real": 0.56
+        },
+        "midjourney": {
+          "auroc": 0.5364,
+          "auroc_ci95": [
+            0.45475,
+            0.6164199999999999
+          ],
+          "mean_paired_difference": 0.013596436083316803,
+          "fraction_above_matched_real": 0.6
+        }
+      },
+      "classes": {
+        "real": {
+          "n": 50,
+          "mean_cosine_residual": 0.37409785509109494,
+          "median_image_cosine_residual": 0.36524125933647156,
+          "mean_angle_deg": 46.222509231567386,
+          "mean_interior_coverage": 1.0
+        },
+        "ai": {
+          "n": 250,
+          "mean_cosine_residual": 0.3492625916004181,
+          "median_image_cosine_residual": 0.34074436128139496,
+          "mean_angle_deg": 43.58188375854492,
+          "mean_interior_coverage": 1.0
+        },
+        "sd21": {
+          "n": 50,
+          "mean_cosine_residual": 0.31527297109365465,
+          "median_image_cosine_residual": 0.29909181594848633,
+          "mean_angle_deg": 41.046502876281735,
+          "mean_interior_coverage": 1.0
+        },
+        "sdxl": {
+          "n": 50,
+          "mean_cosine_residual": 0.32953025549650194,
+          "median_image_cosine_residual": 0.3170069307088852,
+          "mean_angle_deg": 41.30863479614258,
+          "mean_interior_coverage": 1.0
+        },
+        "sd3": {
+          "n": 50,
+          "mean_cosine_residual": 0.3206182152032852,
+          "median_image_cosine_residual": 0.3097851574420929,
+          "mean_angle_deg": 41.63464805603027,
+          "mean_interior_coverage": 1.0
+        },
+        "dalle3": {
+          "n": 50,
+          "mean_cosine_residual": 0.39319722503423693,
+          "median_image_cosine_residual": 0.38512448966503143,
+          "mean_angle_deg": 47.105808143615725,
+          "mean_interior_coverage": 1.0
+        },
+        "midjourney": {
+          "n": 50,
+          "mean_cosine_residual": 0.3876942911744118,
+          "median_image_cosine_residual": 0.37528273463249207,
+          "mean_angle_deg": 46.8138249206543,
+          "mean_interior_coverage": 1.0
+        }
+      },
+      "angular_auroc_secondary": 0.41296
+    },
+    "indoor": {
+      "auroc": 0.47688,
+      "auroc_95pct_caption_cluster_bootstrap": [
+        0.41519,
+        0.5389619999999999
+      ],
+      "paired_mean_difference": -0.00724523012340069,
+      "paired_difference_95pct_caption_cluster_bootstrap": [
+        -0.029547906278446317,
+        0.013953762315958724
+      ],
+      "per_generator_auroc": [
+        0.39,
+        0.4332,
+        0.3788,
+        0.6132,
+        0.5692
+      ],
+      "per_generator_auroc_ci95": [
+        [
+          0.308,
+          0.4736
+        ],
+        [
+          0.3424,
+          0.5276099999999999
+        ],
+        [
+          0.29999,
+          0.4548199999999999
+        ],
+        [
+          0.53039,
+          0.6996
+        ],
+        [
+          0.49318,
+          0.6484099999999999
+        ]
+      ],
+      "per_generator_paired_mean_difference": [
+        -0.03626763939857483,
+        -0.02393415190279484,
+        -0.04192481219768524,
+        0.04021390229463577,
+        0.025686550587415695
+      ],
+      "per_generator_fraction_above_matched_real": [
+        0.36,
+        0.4,
+        0.26,
+        0.7,
+        0.6
+      ],
+      "bootstrap_replicates": 2000,
+      "bootstrap_seed": 180,
+      "bootstrap_unit": "complete caption group, preserving real and all generated counterparts",
+      "groups": 50,
+      "generators": 5,
+      "per_generator": {
+        "sd21": {
+          "auroc": 0.39,
+          "auroc_ci95": [
+            0.308,
+            0.4736
+          ],
+          "mean_paired_difference": -0.03626763939857483,
+          "fraction_above_matched_real": 0.36
+        },
+        "sdxl": {
+          "auroc": 0.4332,
+          "auroc_ci95": [
+            0.3424,
+            0.5276099999999999
+          ],
+          "mean_paired_difference": -0.02393415190279484,
+          "fraction_above_matched_real": 0.4
+        },
+        "sd3": {
+          "auroc": 0.3788,
+          "auroc_ci95": [
+            0.29999,
+            0.4548199999999999
+          ],
+          "mean_paired_difference": -0.04192481219768524,
+          "fraction_above_matched_real": 0.26
+        },
+        "dalle3": {
+          "auroc": 0.6132,
+          "auroc_ci95": [
+            0.53039,
+            0.6996
+          ],
+          "mean_paired_difference": 0.04021390229463577,
+          "fraction_above_matched_real": 0.7
+        },
+        "midjourney": {
+          "auroc": 0.5692,
+          "auroc_ci95": [
+            0.49318,
+            0.6484099999999999
+          ],
+          "mean_paired_difference": 0.025686550587415695,
+          "fraction_above_matched_real": 0.6
+        }
+      },
+      "classes": {
+        "real": {
+          "n": 50,
+          "mean_cosine_residual": 0.22011481896042823,
+          "median_image_cosine_residual": 0.20393412560224533,
+          "mean_angle_deg": 31.88608512878418,
+          "mean_interior_coverage": 1.0
+        },
+        "ai": {
+          "n": 250,
+          "mean_cosine_residual": 0.21286958883702756,
+          "median_image_cosine_residual": 0.18973343074321747,
+          "mean_angle_deg": 30.62445315551758,
+          "mean_interior_coverage": 1.0
+        },
+        "sd21": {
+          "n": 50,
+          "mean_cosine_residual": 0.1838471795618534,
+          "median_image_cosine_residual": 0.1572052612900734,
+          "mean_angle_deg": 28.178465805053712,
+          "mean_interior_coverage": 1.0
+        },
+        "sdxl": {
+          "n": 50,
+          "mean_cosine_residual": 0.1961806670576334,
+          "median_image_cosine_residual": 0.179063618183136,
+          "mean_angle_deg": 28.413257484436034,
+          "mean_interior_coverage": 1.0
+        },
+        "sd3": {
+          "n": 50,
+          "mean_cosine_residual": 0.178190006762743,
+          "median_image_cosine_residual": 0.164848230779171,
+          "mean_angle_deg": 27.385712814331054,
+          "mean_interior_coverage": 1.0
+        },
+        "dalle3": {
+          "n": 50,
+          "mean_cosine_residual": 0.260328721255064,
+          "median_image_cosine_residual": 0.24020550400018692,
+          "mean_angle_deg": 35.159296875,
+          "mean_interior_coverage": 1.0
+        },
+        "midjourney": {
+          "n": 50,
+          "mean_cosine_residual": 0.24580136954784393,
+          "median_image_cosine_residual": 0.20902977138757706,
+          "mean_angle_deg": 33.98553279876709,
+          "mean_interior_coverage": 1.0
+        }
+      },
+      "angular_auroc_secondary": 0.46384
+    }
+  },
+  "failed_images": 0
+}

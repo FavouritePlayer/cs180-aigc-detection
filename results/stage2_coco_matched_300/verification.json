@@ -1,0 +1,19 @@
+{
+  "complete_images": 300,
+  "real": 50,
+  "ai": 250,
+  "per_generator": 50,
+  "complete_caption_groups": 50,
+  "complete_calibrations": 300,
+  "complete_depth_images_per_checkpoint": 300,
+  "exact_frozen_manifest_match": true,
+  "unique_input_byte_hashes": 300,
+  "unique_decoded_rgb_hashes": 300,
+  "unique_processed_rgb_hashes": 300,
+  "identical_model_canvas_pixels": true,
+  "no_selected_caption_or_decoded_image_in_train_validation": true,
+  "protocol_and_manifest_hashes_unchanged": true,
+  "finite_in_range_scores_and_coverages": true,
+  "metric_tests_passed": 11,
+  "failed_images": 0
+}

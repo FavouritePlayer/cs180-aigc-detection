@@ -1,0 +1,18 @@
+{
+  "budget_usd": 1.0,
+  "estimated_total_usd": 0.1778,
+  "pricing_estimate_usd": 0.1778,
+  "account_debit_observed_usd": 0.1745,
+  "within_budget": true,
+  "instances_destroyed": true,
+  "instance_id": 61302349,
+  "gpu": "RTX 3090",
+  "hours_upper_estimate": 0.6883821562263701,
+  "compute_and_disk_usd_per_hour": 0.20833333333333331,
+  "download_gib": 5.66,
+  "upload_gib": 5.03,
+  "download_usd_per_gib": 0.0026041666666666665,
+  "upload_usd_per_gib": 0.00390625,
+  "finished_utc": "2026-11-18T19:21:21.407420+00:00",
+  "notes": "Separate from all prior runs. Elapsed rental time includes setup and disk. Traffic counters reported in KiB converted to GiB. Final estimate is max(pricing estimate, observed net account debit); billing/counters may lag. Destroyed and confirmed absent from v1 instance list."
+}

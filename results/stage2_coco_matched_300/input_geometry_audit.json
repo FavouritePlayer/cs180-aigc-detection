@@ -1,0 +1,128 @@
+{
+  "archive": {
+    "real": {
+      "images": 2742,
+      "stored_dimensions": "256x256",
+      "original_dimension_metadata_nonsquare": 2677,
+      "original_metadata_median_aspect_ratio": 1.3333333333333333
+    },
+    "sd21": {
+      "images": 2742,
+      "stored_dimensions": "256x256",
+      "original_dimension_metadata_nonsquare": 0,
+      "original_metadata_median_aspect_ratio": 1.0
+    },
+    "sdxl": {
+      "images": 2742,
+      "stored_dimensions": "256x256",
+      "original_dimension_metadata_nonsquare": 0,
+      "original_metadata_median_aspect_ratio": 1.0
+    },
+    "sd3": {
+      "images": 2742,
+      "stored_dimensions": "256x256",
+      "original_dimension_metadata_nonsquare": 0,
+      "original_metadata_median_aspect_ratio": 1.0
+    },
+    "dalle3": {
+      "images": 2742,
+      "stored_dimensions": "256x256",
+      "original_dimension_metadata_nonsquare": 0,
+      "original_metadata_median_aspect_ratio": 1.0
+    },
+    "midjourney": {
+      "images": 2742,
+      "stored_dimensions": "256x256",
+      "original_dimension_metadata_nonsquare": 0,
+      "original_metadata_median_aspect_ratio": 1.0
+    }
+  },
+  "pilot": {
+    "real": {
+      "images": 50,
+      "stored_dimensions": "256x256",
+      "original_dimension_metadata_nonsquare": 49,
+      "original_metadata_median_aspect_ratio": 1.3333333333333333
+    },
+    "sd21": {
+      "images": 50,
+      "stored_dimensions": "256x256",
+      "original_dimension_metadata_nonsquare": 0,
+      "original_metadata_median_aspect_ratio": 1.0
+    },
+    "sdxl": {
+      "images": 50,
+      "stored_dimensions": "256x256",
+      "original_dimension_metadata_nonsquare": 0,
+      "original_metadata_median_aspect_ratio": 1.0
+    },
+    "sd3": {
+      "images": 50,
+      "stored_dimensions": "256x256",
+      "original_dimension_metadata_nonsquare": 0,
+      "original_metadata_median_aspect_ratio": 1.0
+    },
+    "dalle3": {
+      "images": 50,
+      "stored_dimensions": "256x256",
+      "original_dimension_metadata_nonsquare": 0,
+      "original_metadata_median_aspect_ratio": 1.0
+    },
+    "midjourney": {
+      "images": 50,
+      "stored_dimensions": "256x256",
+      "original_dimension_metadata_nonsquare": 0,
+      "original_metadata_median_aspect_ratio": 1.0
+    }
+  },
+  "pilot_jpeg_headers": {
+    "dalle3": {
+      "quantization_table_hashes": {
+        "c3e17d917125326c43d0721a954c15367c4d46a507a5361604c880f6b265b527": 50
+      },
+      "sampling_codes": {
+        "2": 50
+      }
+    },
+    "midjourney": {
+      "quantization_table_hashes": {
+        "c3e17d917125326c43d0721a954c15367c4d46a507a5361604c880f6b265b527": 50
+      },
+      "sampling_codes": {
+        "2": 50
+      }
+    },
+    "real": {
+      "quantization_table_hashes": {
+        "c3e17d917125326c43d0721a954c15367c4d46a507a5361604c880f6b265b527": 50
+      },
+      "sampling_codes": {
+        "2": 50
+      }
+    },
+    "sd21": {
+      "quantization_table_hashes": {
+        "c3e17d917125326c43d0721a954c15367c4d46a507a5361604c880f6b265b527": 50
+      },
+      "sampling_codes": {
+        "2": 50
+      }
+    },
+    "sd3": {
+      "quantization_table_hashes": {
+        "c3e17d917125326c43d0721a954c15367c4d46a507a5361604c880f6b265b527": 50
+      },
+      "sampling_codes": {
+        "2": 50
+      }
+    },
+    "sdxl": {
+      "quantization_table_hashes": {
+        "c3e17d917125326c43d0721a954c15367c4d46a507a5361604c880f6b265b527": 50
+      },
+      "sampling_codes": {
+        "2": 50
+      }
+    }
+  }
+}

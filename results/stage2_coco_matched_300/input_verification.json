@@ -1,0 +1,12 @@
+{
+  "archive_filename": "coco_indoor_all.zip",
+  "bytes": 422257484,
+  "sha256": "c847a0655de51d16724852da1dbe155b0998b8941f80c8a47b2577b8dc71a089",
+  "zip_crc_verified": true,
+  "all_16452_jpegs_decoded": true,
+  "selected_images": 300,
+  "selected_unique_decoded_rgb_hashes": 300,
+  "proposal_unchanged": true,
+  "protocol_sha256": "414c80b7e1b32aeb93f2f9c8e45bc172c31de866725ace809a8d9dca360a9f53",
+  "manifest_sha256": "cb1b681031333de219fed87853bed7bbe39ee29afa39b8c28e10c9a2fc8d35d9"
+}

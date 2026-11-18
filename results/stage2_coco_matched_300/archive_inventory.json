@@ -1,0 +1,28 @@
+{
+  "images": 16452,
+  "by_generator": {
+    "real": 2742,
+    "sd21": 2742,
+    "sdxl": 2742,
+    "sd3": 2742,
+    "dalle3": 2742,
+    "midjourney": 2742
+  },
+  "by_split": {
+    "train": 7074,
+    "validation": 1578,
+    "test": 7800
+  },
+  "unique_byte_hashes": 16442,
+  "unique_decoded_rgb_hashes": 16442,
+  "unique_real_decoded_images": 2742,
+  "cross_label_duplicate_pixel_groups": 0,
+  "caption_instance_groups": 2742,
+  "complete_six_way_groups": 2742,
+  "caption_ids_across_splits": 14,
+  "decoded_dimensions": {
+    "256x256": 16452
+  },
+  "all_images_decoded": true,
+  "archive_crc_verified": true
+}
