@@ -1,0 +1,40 @@
+{
+  "n_total": 100,
+  "n_scored": 100,
+  "n_insufficient_structure": 0,
+  "real": 50,
+  "ai": 50,
+  "primary": "mean |cos| orthogonality residual over found vanishing-point pairs",
+  "direction": "higher = generated, fixed before this run, not flipped",
+  "auroc": 0.5276,
+  "auroc_95pct_stratified_image_bootstrap": [
+    0.41758,
+    0.64081
+  ],
+  "bootstrap_replicates": 2000,
+  "bootstrap_seed": 180,
+  "classes": {
+    "real": {
+      "n": 50,
+      "n_scored": 50,
+      "mean_score": 0.38509723676572877,
+      "median_score": 0.34852944083049786,
+      "mean_num_vps": 2.98,
+      "mean_num_lines": 338.16
+    },
+    "ai": {
+      "n": 50,
+      "n_scored": 50,
+      "mean_score": 0.3850451762240137,
+      "median_score": 0.3655624766381339,
+      "mean_num_vps": 2.96,
+      "mean_num_lines": 249.48
+    }
+  },
+  "coverage": {
+    "n_with_2_or_3_vps": 100,
+    "n_with_3_vps": 97,
+    "n_with_2_vps": 3,
+    "n_with_fewer_than_2_vps": 0
+  }
+}

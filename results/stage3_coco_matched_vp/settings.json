@@ -1,0 +1,15 @@
+{
+  "canvas_long_edge": 1024,
+  "resize": "PIL LANCZOS, no crop, aspect preserving (matches stage2 canvas convention)",
+  "intrinsics_source": "reused predicted_intrinsics_px from the given --calibration per_image.jsonl, GeoCalib not rerun",
+  "line_detector": "OpenCV LSD (cv2.createLineSegmentDetector, LSD_REFINE_STD)",
+  "min_length_frac": 0.02,
+  "max_vps": 3,
+  "min_lines_remaining": 6,
+  "inlier_threshold_deg": 2.0,
+  "ransac_iters": 500,
+  "min_inliers": 6,
+  "residual": "mean over found VP pairs of |cos| between back-projected ray directions under K",
+  "score_direction": "higher = generated (fixed before running on real data; see PROTOCOL_VP.md)",
+  "seed": "first 32 bits of SHA256(image id)"
+}

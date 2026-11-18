@@ -1,0 +1,6 @@
+# Tested runtime: Python 3.13, CPU only, no GPU required
+numpy==2.5.5
+scipy==1.18.1
+opencv-contrib-python-headless==5.1.0.95
+Pillow==13.0.0
+pytest==9.2.0

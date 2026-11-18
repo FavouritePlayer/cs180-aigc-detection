@@ -1,0 +1,196 @@
+{
+  "images": 300,
+  "real": 50,
+  "ai": 250,
+  "caption_groups": 50,
+  "groups_with_a_missing_score": [
+    "c0962_3"
+  ],
+  "images_with_no_score_insufficient_structure": [
+    {
+      "id": "i3b85a0ae90ed2c2a",
+      "label": "real",
+      "generator": "real",
+      "group_id": "c0962_3",
+      "num_vps": 0,
+      "num_lines": 28
+    }
+  ],
+  "primary": "mean |cos| orthogonality residual over found vanishing-point pairs",
+  "direction": "higher residual = generated, fixed before this run, not flipped",
+  "score_range": [
+    0,
+    1
+  ],
+  "generator_order": [
+    "sd21",
+    "sdxl",
+    "sd3",
+    "dalle3",
+    "midjourney"
+  ],
+  "pooled_auroc_all_scored_images": 0.4282448979591837,
+  "pooled_auroc_95pct_stratified_image_bootstrap": [
+    0.3473428571428571,
+    0.5068285714285712
+  ],
+  "note": "pooled AUROC above uses every scored image (49 real + 250 ai); the caption-matched analysis below excludes the one incomplete group",
+  "matched": {
+    "auroc": 0.4178259058725531,
+    "auroc_95pct_caption_cluster_bootstrap": [
+      0.34552061640982923,
+      0.48863806747188665
+    ],
+    "paired_mean_difference": -0.04329628454259889,
+    "paired_difference_95pct_caption_cluster_bootstrap": [
+      -0.09706816492004018,
+      0.005474651253074419
+    ],
+    "per_generator_auroc": [
+      0.43356934610578923,
+      0.3806747188671387,
+      0.43398583923365264,
+      0.3848396501457726,
+      0.45605997501041234
+    ],
+    "per_generator_auroc_ci95": [
+      [
+        0.33567263640149936,
+        0.5289462723865056
+      ],
+      [
+        0.2936172428154935,
+        0.4660558100791337
+      ],
+      [
+        0.3448354852144939,
+        0.5260308204914619
+      ],
+      [
+        0.28738025822573926,
+        0.4877238650562265
+      ],
+      [
+        0.3465222823823407,
+        0.5722927946688878
+      ]
+    ],
+    "per_generator_paired_mean_difference": [
+      -0.03604411394480821,
+      -0.05313467677738192,
+      -0.03392745700585119,
+      -0.07357443634531244,
+      -0.019800738639640672
+    ],
+    "per_generator_fraction_above_matched_real": [
+      0.40816326530612246,
+      0.40816326530612246,
+      0.46938775510204084,
+      0.3469387755102041,
+      0.5102040816326531
+    ],
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 180,
+    "bootstrap_unit": "complete caption group, preserving real and all generated counterparts",
+    "groups": 49,
+    "generators": 5,
+    "per_generator": {
+      "sd21": {
+        "auroc": 0.43356934610578923,
+        "auroc_ci95": [
+          0.33567263640149936,
+          0.5289462723865056
+        ],
+        "mean_paired_difference": -0.03604411394480821,
+        "fraction_above_matched_real": 0.40816326530612246
+      },
+      "sdxl": {
+        "auroc": 0.3806747188671387,
+        "auroc_ci95": [
+          0.2936172428154935,
+          0.4660558100791337
+        ],
+        "mean_paired_difference": -0.05313467677738192,
+        "fraction_above_matched_real": 0.40816326530612246
+      },
+      "sd3": {
+        "auroc": 0.43398583923365264,
+        "auroc_ci95": [
+          0.3448354852144939,
+          0.5260308204914619
+        ],
+        "mean_paired_difference": -0.03392745700585119,
+        "fraction_above_matched_real": 0.46938775510204084
+      },
+      "dalle3": {
+        "auroc": 0.3848396501457726,
+        "auroc_ci95": [
+          0.28738025822573926,
+          0.4877238650562265
+        ],
+        "mean_paired_difference": -0.07357443634531244,
+        "fraction_above_matched_real": 0.3469387755102041
+      },
+      "midjourney": {
+        "auroc": 0.45605997501041234,
+        "auroc_ci95": [
+          0.3465222823823407,
+          0.5722927946688878
+        ],
+        "mean_paired_difference": -0.019800738639640672,
+        "fraction_above_matched_real": 0.5102040816326531
+      }
+    },
+    "classes": {
+      "real": {
+        "n": 49,
+        "mean_score": 0.24592231442418452,
+        "median_score": 0.225157876200447,
+        "mean_num_vps": 3.0,
+        "mean_num_lines": 224.40816326530611
+      },
+      "ai": {
+        "n": 250,
+        "mean_score": 0.21273251433779314,
+        "median_score": 0.1462466313771149,
+        "mean_num_vps": 2.988,
+        "mean_num_lines": 230.244
+      },
+      "sd21": {
+        "n": 50,
+        "mean_score": 0.22337344280635701,
+        "median_score": 0.13035714546532126,
+        "mean_num_vps": 2.98,
+        "mean_num_lines": 229.68
+      },
+      "sdxl": {
+        "n": 50,
+        "mean_score": 0.20648434539740332,
+        "median_score": 0.10539846337676714,
+        "mean_num_vps": 3.0,
+        "mean_num_lines": 208.04
+      },
+      "sd3": {
+        "n": 50,
+        "mean_score": 0.21589162895016967,
+        "median_score": 0.1478502578870356,
+        "mean_num_vps": 2.96,
+        "mean_num_lines": 194.34
+      },
+      "dalle3": {
+        "n": 50,
+        "mean_score": 0.17817910935010087,
+        "median_score": 0.14430421062487828,
+        "mean_num_vps": 3.0,
+        "mean_num_lines": 315.84
+      },
+      "midjourney": {
+        "n": 50,
+        "mean_score": 0.23973404518493482,
+        "median_score": 0.22714104378658406,
+        "mean_num_vps": 3.0,
+        "mean_num_lines": 203.32
+      }
+    }
+  }
+}
